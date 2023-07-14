@@ -136,7 +136,12 @@
 
                 <?php 
                 $pageName = basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']);
-                if($pageName!='index.php'){
+                if($pageName!='index.php' && $pageName!='study-mbbs-abroad.php'){
                     include 'includes/sub-header.php';
-                }?>
+                }
+
+                if($pageName=='study-mbbs-abroad.php'){
+                    include 'includes/study-mbbs-abroad-slider.php';
+                }
+                ?>
             </div>
