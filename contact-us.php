@@ -10,7 +10,7 @@
                      <div class="mcb-wrap-inner">
                         <div class="column mcb-column one-third column_list ">
                            <div class="list_item lists_2 clearfix">
-                              <div class="list_left list_image"><img src="assets/img/contact_us/mail.png" class="scale-with-grid" alt="mail" width="64" height="64"></div>
+                              <div class="list_left list_image"><img src="https://atharvoverseas.com/wp-content/uploads/2020/01/mail.png" class="scale-with-grid" alt="mail" width="64" height="64"></div>
                               <div class="list_right">
                                  <div class="desc">
                                     <big style="padding-top: 12px; display: block">Have any questions?</big>
@@ -23,7 +23,7 @@
                         </div>
                         <div class="column mcb-column one-third column_list ">
                            <div class="list_item lists_2 clearfix">
-                              <div class="list_left list_image"><img src="assets/img/contact_us/call.png" class="scale-with-grid" alt="call" width="64" height="64"></div>
+                              <div class="list_left list_image"><img src="https://atharvoverseas.com/wp-content/uploads/2020/01/call.png" class="scale-with-grid" alt="call" width="64" height="64"></div>
                               <div class="list_right">
                                  <div class="desc">
                                     <big style="padding-top: 12px; display: block">Call us</big>
@@ -34,7 +34,7 @@
                         </div>
                         <div class="column mcb-column one-third column_list ">
                            <div class="list_item lists_2 clearfix">
-                              <div class="list_left list_image"><img src="assets/img/contact_us/whatsapp1.png" class="scale-with-grid" alt="whatsapp(1)" width="64" height="64"></div>
+                              <div class="list_left list_image"><img src="https://atharvoverseas.com/wp-content/uploads/2020/01/whatsapp1.png" class="scale-with-grid" alt="whatsapp(1)" width="64" height="64"></div>
                               <div class="list_right">
                                  <div class="desc">
                                     <big style="padding-top: 12px; display: block">Whatapp</big>

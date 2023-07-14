@@ -10,7 +10,7 @@
                       <div class="mcb-wrap-inner">
                          <div class="column mcb-column one-second column_icon_box ">
                             <div class="icon_box icon_position_top no_border">
-                               <div class="image_wrapper"><img src="assets/img/services/Free-Counselling.png" class="scale-with-grid" alt="Free-Counselling" width="100" height="100"></div>
+                               <div class="image_wrapper"><img src="https://atharvoverseas.com/wp-content/uploads/2020/01/Free-Counselling.png" class="scale-with-grid" alt="Free-Counselling" width="100" height="100"></div>
                                <div class="desc_wrapper">
                                   <h4>Free Counselling </h4>
                                </div>
@@ -18,7 +18,7 @@
                          </div>
                          <div class="column mcb-column one-second column_icon_box ">
                             <div class="icon_box icon_position_top no_border">
-                               <div class="image_wrapper"><img src="assets/img/services/University-and-Program-Selection.png" class="scale-with-grid" alt="University-and-Program-Selection" width="100" height="100"></div>
+                               <div class="image_wrapper"><img src="https://atharvoverseas.com/wp-content/uploads/2020/01/University-and-Program-Selection.png" class="scale-with-grid" alt="University-and-Program-Selection" width="100" height="100"></div>
                                <div class="desc_wrapper">
                                   <h4>University and Program Selection</h4>
                                </div>
@@ -30,7 +30,7 @@
                       <div class="mcb-wrap-inner">
                          <div class="column mcb-column one-second column_icon_box ">
                             <div class="icon_box icon_position_top no_border">
-                               <div class="image_wrapper"><img src="assets/img/services/End-to-End-Admission-Guidance.png" class="scale-with-grid" alt="End-to-End-Admission-Guidance" width="100" height="100"></div>
+                               <div class="image_wrapper"><img src="https://atharvoverseas.com/wp-content/uploads/2020/01/End-to-End-Admission-Guidance.png" class="scale-with-grid" alt="End-to-End-Admission-Guidance" width="100" height="100"></div>
                                <div class="desc_wrapper">
                                   <h4>End-to-End Admission Guidance</h4>
                                </div>
@@ -38,7 +38,7 @@
                          </div>
                          <div class="column mcb-column one-second column_icon_box ">
                             <div class="icon_box icon_position_top no_border">
-                               <div class="image_wrapper"><img src="assets/img/services/visa-1.png" class="scale-with-grid" alt="visa" width="100" height="100"></div>
+                               <div class="image_wrapper"><img src="https://atharvoverseas.com/wp-content/uploads/2020/01/services/visa-1.png" class="scale-with-grid" alt="visa" width="100" height="100"></div>
                                <div class="desc_wrapper">
                                   <h4>Visa Processing</h4>
                                </div>
@@ -82,7 +82,7 @@
                       <div class="mcb-wrap-inner">
                          <div class="column mcb-column one column_image ">
                             <div class="image_frame image_item no_link scale-with-grid alignright no_border">
-                               <div class="image_wrapper"><img class="scale-with-grid" src="assets/img/services/service_banner.jpg" alt="service_banner" width="463" height="550"></div>
+                               <div class="image_wrapper"><img class="scale-with-grid" src="https://atharvoverseas.com/wp-content/uploads/2020/01/service_banner.jpg" alt="service_banner" width="463" height="550"></div>
                             </div>
                          </div>
                       </div>
@@ -95,7 +95,7 @@
                       <div class="mcb-wrap-inner">
                          <div class="column mcb-column one column_image ">
                             <div class="image_frame image_item no_link scale-with-grid alignleft no_border">
-                               <div class="image_wrapper"><img class="scale-with-grid" src="assets/img/services/service_banner1.png" alt="service_banner1" width="722" height="558"></div>
+                               <div class="image_wrapper"><img class="scale-with-grid" src="https://atharvoverseas.com/wp-content/uploads/2020/01/service_banner1.png" alt="service_banner1" width="722" height="558"></div>
                             </div>
                          </div>
                       </div>
