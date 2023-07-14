@@ -108,33 +108,33 @@
               }
             }   
         </script>
-        <script type="text/javascript" src="assets/js/regenerator-runtime.min.js?ver=0.13.9" id="regenerator-runtime-js"></script>
-        <script type="text/javascript" src="assets/js/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+        <script type="text/javascript" src="assets/js/regenerator-runtime.min.js" id="regenerator-runtime-js"></script>
+        <script type="text/javascript" src="assets/js/wp-polyfill.min.js" id="wp-polyfill-js"></script>
         <script type="text/javascript" id="contact-form-7-js-extra">
             /* <![CDATA[ */
             var wpcf7 = {"api":{"root":"https:\/\/atharvoverseas.com\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
             /* ]]> */
         </script>
-        <script type="text/javascript" src="assets/js/index.js?ver=5.6" id="contact-form-7-js"></script>
-        <script type="text/javascript" src="assets/js/core.min.js?ver=1.13.1" id="jquery-ui-core-js"></script>
-        <script type="text/javascript" src="assets/js/mouse.min.js?ver=1.13.1" id="jquery-ui-mouse-js"></script>
-        <script type="text/javascript" src="assets/js/sortable.min.js?ver=1.13.1" id="jquery-ui-sortable-js"></script>
-        <script type="text/javascript" src="assets/js/tabs.min.js?ver=1.13.1" id="jquery-ui-tabs-js"></script>
-        <script type="text/javascript" src="assets/js/accordion.min.js?ver=1.13.1" id="jquery-ui-accordion-js"></script>
-        <script type="text/javascript" src="assets/js/plugins.js?ver=14.1" id="jquery-plugins-js"></script>
-        <script type="text/javascript" src="assets/js/menu.js?ver=14.1" id="jquery-mfn-menu-js"></script>
-        <script type="text/javascript" src="assets/js/animations.min.js?ver=14.1" id="jquery-animations-js"></script>
-        <script type="text/javascript" src="assets/js/jplayer.min.js?ver=14.1" id="jquery-jplayer-js"></script>
-        <script type="text/javascript" src="assets/js/translate3d.js?ver=14.1" id="jquery-mfn-parallax-js"></script>
-        <script type="text/javascript" src="assets/js/scripts.js?ver=14.1" id="jquery-scripts-js"></script>
-        <script type="text/javascript" src="assets/js/comment-reply.min.js?ver=5.9.7" id="comment-reply-js"></script>
-        <script type="text/javascript" src="assets/js/jquery.cookie.js?ver=2.0.3" id="mystickyelements-cookie-js-js"></script>
+        <script type="text/javascript" src="assets/js/index.js" id="contact-form-7-js"></script>
+        <script type="text/javascript" src="assets/js/core.min.js" id="jquery-ui-core-js"></script>
+        <script type="text/javascript" src="assets/js/mouse.min.js" id="jquery-ui-mouse-js"></script>
+        <script type="text/javascript" src="assets/js/sortable.min.js" id="jquery-ui-sortable-js"></script>
+        <script type="text/javascript" src="assets/js/tabs.min.js" id="jquery-ui-tabs-js"></script>
+        <script type="text/javascript" src="assets/js/accordion.min.js" id="jquery-ui-accordion-js"></script>
+        <script type="text/javascript" src="assets/js/plugins.js" id="jquery-plugins-js"></script>
+        <script type="text/javascript" src="assets/js/menu.js" id="jquery-mfn-menu-js"></script>
+        <script type="text/javascript" src="assets/js/animations.min.js" id="jquery-animations-js"></script>
+        <script type="text/javascript" src="assets/js/jplayer.min.js" id="jquery-jplayer-js"></script>
+        <script type="text/javascript" src="assets/js/translate3d.js" id="jquery-mfn-parallax-js"></script>
+        <script type="text/javascript" src="assets/js/scripts.js" id="jquery-scripts-js"></script>
+        <script type="text/javascript" src="assets/js/comment-reply.min.js" id="comment-reply-js"></script>
+        <script type="text/javascript" src="assets/js/jquery.cookie.js" id="mystickyelements-cookie-js-js"></script>
         <script type="text/javascript" id="mystickyelements-fronted-js-js-extra">
             /* <![CDATA[ */
             var mystickyelements = {"ajaxurl":"https:\/\/atharvoverseas.com\/wp-admin\/admin-ajax.php","ajax_nonce":"be856689b2","google_analytics":""};
             /* ]]> */
         </script>
-        <script type="text/javascript" src="assets/js/mystickyelements-fronted.min.js?ver=2.0.3" id="mystickyelements-fronted-js-js"></script>
+        <script type="text/javascript" src="assets/js/mystickyelements-fronted.min.js" id="mystickyelements-fronted-js-js"></script>
         <script id="mfn-dnmc-custom-js">
             //<![CDATA[
             var s=document.createElement("script");
