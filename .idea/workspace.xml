@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ec1b934-4337-478c-8356-fe544cb03dc4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/postRequest/imageUpload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/postRequest/saveSection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/section.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/bannerForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/bannerForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/include/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/include/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/include/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/include/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-us.php" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/include/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/include/sidebar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +59,7 @@
       <updated>1689239178074</updated>
       <workItem from="1689239179324" duration="12039000" />
       <workItem from="1689306548856" duration="12956000" />
-      <workItem from="1689323870877" duration="7903000" />
+      <workItem from="1689323870877" duration="12096000" />
     </task>
     <servers />
   </component>

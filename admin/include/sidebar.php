@@ -115,10 +115,108 @@
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-book-medical"></i>
+                        <p> MBBS Abroad <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="section.php?id=8&section=MBBS Updates" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>MBBS Abroad About</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="section.php?id=9&section=MBBS Updates" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>MBBS Abroad Study</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-book-medical"></i>
+                        <p> MBBS India <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="section.php?id=10&section=MBBS Updates" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>ABOUT US</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="section.php?id=11&section=MBBS Updates" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>Free Counselling</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="section.php?id=12&section=MBBS Updates" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>MBBS</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="section.php?id=13&section=MBBS Updates" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>Admission Procedure</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="section.php?id=14&section=MBBS Updates" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>Universities For MBBS</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="section.php?id=15&section=MBBS Updates" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>BHMS</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="section.php?id=16&section=MBBS Updates" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>BHMS</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="section.php?id=17&section=MBBS Updates" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>Universities For BHMS</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="section.php?id=18&section=MBBS Updates" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>BDS</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="section.php?id=19&section=MBBS Updates" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>Universities For BDS</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-book-medical"></i>
                         <p> MBBS <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="section.php?id=8&section=MBBS Updates" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>MBBS Abrod</p>
+                            </a>
+                        </li>
                         <li class="nav-item">
                             <a href="section.php?id=8&section=MBBS Updates" class="nav-link">
                                 <i class="nav-icon fa fa-circle"></i>
