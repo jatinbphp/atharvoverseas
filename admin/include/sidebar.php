@@ -1,4 +1,4 @@
-<aside class="main-sidebar sidebar-dark-primary elevation-4">
+<aside class="main-sidebar sidebar-dark-primary elevation-4" style="position: fixed!important;">
     <a href="index3.html" class="brand-link">
         <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
         <span class="brand-text font-weight-light">AdminLTE 3</span>
@@ -44,6 +44,88 @@
                         <i class="nav-icon fa fa-image"></i>
                         <p>Banners</p>
                     </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-home"></i>
+                        <p> Home Page <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="section.php?id=1&section=Home About" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>Home About</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="section.php?id=2&section=Home Study" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>Home Study</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-tag"></i>
+                        <p> About Us <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="section.php?id=3&section=About Us" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>About Us</p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="section.php?id=4&section=About Overview" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>About Overview</p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="section.php?id=5&section=Our Mission" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>Our Mission</p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="section.php?id=6&section=Our Vision" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>Our Vision</p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="section.php?id=7&section=About Last" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>About Last</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-book-medical"></i>
+                        <p> MBBS <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="section.php?id=8&section=MBBS Updates" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>MBBS Updates</p>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </nav>

@@ -39,6 +39,41 @@
 <script src="dist/js/pages/dashboard.js"></script>
 
 <script>
+    $(function () {
+        $("textarea[id=summernote]").summernote({
+            height: 250,
+            toolbar: [
+                ['style', ['bold', 'italic', 'underline', 'clear']],
+                ['font', ['strikethrough', 'superscript', 'subscript']],
+                ['fontsize', ['fontsize', 'height']],
+                ['color', ['color']],
+                ['para', ['ul', 'ol', 'paragraph']],
+                ['insert', ['table','picture','link','map','minidiag']],
+                ['misc', ['fullscreen', 'codeview']],
+            ],
+            onImageUpload: function(files, editor, welEditable) {
+                upload_image(files[0], editor, welEditable);
+            }
+        });
+
+        function upload_image(file, editor, welEditable) {
+            data = new FormData();
+            data.append("file", file);
+            $.ajax({
+                data: data,
+                url: 'postRequest/imageUpload.php',
+                type: "post",
+                cache: false,
+                contentType: false,
+                processData: false,
+                success: function(img){
+                    console.log(img);
+                    editor.insertImage(welEditable, url);
+                }
+            });
+        }
+    })
+
     $(document).ready( function() {
         <?php if(isset($_SESSION['error']) && !empty($_SESSION['error'])){ ?>
         alert('<?php echo $_SESSION['error']; $_SESSION['error'] = ''; ?>');

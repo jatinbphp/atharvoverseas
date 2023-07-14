@@ -50,7 +50,7 @@ if(isset($_GET['id']) && !empty($_GET['id'])){
                         </div>
                         <div class="card-footer">
                             <a href="banner.php" ><button class="btn btn-default" type="button">Back</button></a>
-                            <button class="btn btn-info float-right" type="submit">Add</button>
+                            <button class="btn btn-info float-right" type="submit"><?php echo isset($_GET['id']) && !empty($_GET['id']) ? 'Update' : 'Add'; ?></button>
                         </div>
                     </form>
                 </div>
