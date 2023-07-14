@@ -11,7 +11,7 @@
                                     <div class="column mcb-column one column_fancy_heading ">
                                         <div class="fancy_heading fancy_heading_icon">
                                             <h2 class="title">ABOUT ATHARV OVERSEAS <span class="themecolor">EDUCATION CONSULTANCY </span></h2>
-                                            <div class="inside"><img class="scale-with-grid" src="https://atharvoverseas.com/wp-content/uploads/2019/12/slid.png" alt="line" style="
+                                            <div class="inside"><img class="scale-with-grid" src="assets/img/slid.png" alt="line" style="
                                             width: 41%;
                                             height: 6px;
                                             " /></div>
@@ -35,7 +35,7 @@
                                     <div class="column mcb-column one column_fancy_heading ">
                                         <div class="fancy_heading fancy_heading_icon">
                                             <h2 class="title">Overview</h2>
-                                            <div class="inside"><img class="scale-with-grid" src="https://atharvoverseas.com/wp-content/uploads/2019/12/slid.png" alt="line" style="
+                                            <div class="inside"><img class="scale-with-grid" src="assets/img/slid.png" alt="line" style="
                                             width: 41%;
                                             height: 6px;
                                             " /></div>
@@ -48,7 +48,7 @@
                                     </div>
                                     <div class="column mcb-column one-third column_image ">
                                         <div class="image_frame image_item no_link scale-with-grid alignright no_border">
-                                            <div class="image_wrapper"><img class="scale-with-grid" src="https://atharvoverseas.com/wp-content/uploads/2020/01/service_banner1.png" alt="service_banner1" width="722" height="558" /></div>
+                                            <div class="image_wrapper"><img class="scale-with-grid" src="assets/img/about_us/service_banner1.png" alt="service_banner1" width="722" height="558" /></div>
                                         </div>
                                     </div>
                                 </div>
@@ -62,7 +62,7 @@
                                     <div class="column mcb-column one column_fancy_heading ">
                                         <div class="fancy_heading fancy_heading_icon">
                                             <h2 class="title">Our Mission</h2>
-                                            <div class="inside"><img class="scale-with-grid" src="https://atharvoverseas.com/wp-content/uploads/2019/12/slid.png" alt="line" style="
+                                            <div class="inside"><img class="scale-with-grid" src="assets/img/slid.png" alt="line" style="
                                             width: 41%;
                                             height: 6px;
                                             " /></div>
@@ -81,7 +81,7 @@
                                     <div class="column mcb-column one column_fancy_heading ">
                                         <div class="fancy_heading fancy_heading_icon">
                                             <h2 class="title">Our Vision</h2>
-                                            <div class="inside"><img class="scale-with-grid" src="https://atharvoverseas.com/wp-content/uploads/2019/12/slid.png" alt="line" style="
+                                            <div class="inside"><img class="scale-with-grid" src="assets/img/slid.png" alt="line" style="
                                             width: 41%;
                                             height: 6px;
                                             " /></div>

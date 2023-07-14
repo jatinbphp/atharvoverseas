@@ -12,7 +12,7 @@
                                     <div class="fancy_heading fancy_heading_icon">
                                         <div class="animate" data-anim-type="fadeInUp">
                                             <h2 class="title">ABOUT ATHARV OVERSEAS <span class="themecolor">EDUCATION CONSULTANCY </span></h2>
-                                            <div class="inside"><img class="scale-with-grid" src="https://atharvoverseas.com/wp-content/uploads/2019/12/slid.png" alt="line" style="
+                                            <div class="inside"><img class="scale-with-grid" src="assets/img/slid.png" alt="line" style="
                                                 width: 41%;
                                                 height: 6px;
                                                 " /></div>
@@ -31,7 +31,7 @@
                                 </div>
                                 <div class="column mcb-column two-fifth column_image ">
                                     <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                        <div class="image_wrapper"><img class="scale-with-grid" src="https://atharvoverseas.com/wp-content/uploads/2022/06/banner-new1.jpg" alt="banner-new1" width="778" height="755" /></div>
+                                        <div class="image_wrapper"><img class="scale-with-grid" src="assets/img/home/banner-new1.jpg" alt="banner-new1" width="778" height="755" /></div>
                                     </div>
                                 </div>
                             </div>
@@ -133,7 +133,7 @@
                             <div class="mcb-wrap-inner">
                                 <div class="column mcb-column one-second column_column why_choose_box column-margin-">
                                     <div class="column_attr clearfix align_center" style=" width: 100%;">
-                                        <img src="https://study.atharvoverseas.com/wp-content/uploads/2022/02/HandpickedProgramsAcrossPartnerUniversities1.svg">
+                                        <img src="assets/img/home/HandpickedProgramsAcrossPartnerUniversities1.svg">
                                         <p style="padding: 7px 30px;">
                                             Career Pathway Assessment and Planning.
                                         </p>
@@ -141,7 +141,7 @@
                                 </div>
                                 <div class="column mcb-column one-second column_column why_choose_box column-margin-">
                                     <div class="column_attr clearfix align_center" style=" width: 100%;">
-                                        <img src="https://study.atharvoverseas.com/wp-content/uploads/2022/02/Expertadviceforcoursecountryuniversityselection1.svg">
+                                        <img src="assets/img/home/Expertadviceforcoursecountryuniversityselection1.svg">
                                         <p style="padding: 7px 30px;">
                                             Expert Counselling for Country, University & Course Selections.
                                         </p>
@@ -153,7 +153,7 @@
                             <div class="mcb-wrap-inner">
                                 <div class="column mcb-column one-second column_column why_choose_box column-margin-">
                                     <div class="column_attr clearfix align_center" style=" width: 100%;">
-                                        <img src="https://study.atharvoverseas.com/wp-content/uploads/2022/02/TOEFLPreparation1.svg">
+                                        <img src="assets/img/home/TOEFLPreparation1.svg">
                                         <p style="padding: 7px 30px;">
                                             Application & Visa Assistance.
                                         </p>
@@ -161,7 +161,7 @@
                                 </div>
                                 <div class="column mcb-column one-second column_column why_choose_box column-margin-">
                                     <div class="column_attr clearfix align_center" style=" width: 100%;">
-                                        <img src="https://study.atharvoverseas.com/wp-content/uploads/2022/02/Guidanceforapplicationeditingandprocessing1.svg">
+                                        <img src="assets/img/home/Guidanceforapplicationeditingandprocessing1.svg">
                                         <p style="padding: 7px 30px;">
                                             Off-shore & On-shore Assistance.
                                         </p>
