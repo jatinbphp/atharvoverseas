@@ -1,0 +1,24 @@
+.header-classic #Action_bar,.header-plain #Action_bar,.header-stack #Action_bar{background-color:#5c4c52;padding:2px;font-size:15px}
+div#Action_bar a{color:#fff!important}
+.why_choose_box img{width:75px}
+.why_choose_box p{font-size:15px;font-weight:800;color:#000}
+.why_choose_box div{padding:20px}
+#nr td,th{text-align:left!important}
+.small{text-transform:lowercase}
+.header-stack #Top_bar .logo{border-bottom:1px solid #020202!important}
+.header-stack.header-center #Top_bar:not(.is-sticky) .menu_wrapper{border-bottom:1px solid #000!important}
+#Top_bar .menu > li > a span{border-color:#000!important}
+.leftheading{font-size:19px!important;letter-spacing:1px!important;line-height:25px!important;font-weight:400!important}
+aside#text-7 h4{font-size:17px!important;letter-spacing:1px!important;font-weight:400!important}
+aside#text-21 h4{font-size:17px!important;letter-spacing:1px!important;font-weight:400!important}
+aside#text-19 h4{font-size:17px!important;letter-spacing:1px!important;font-weight:400!important;font-size:17px!important;letter-spacing:1px!important;font-weight:normal!important}
+aside#text-20 h4{font-size:17px!important;letter-spacing:1px!important;font-weight:400!important}
+.header-stack #Action_bar .contact_details li,.header-stack #Action_bar .social,.header-stack #Action_bar .social-menu{padding:3px 0!important}
+#Top_bar .menu > li > a span:not(.description){padding:0 15px!important;border-right-width:2px!important}
+#Top_bar .menu > li > a{padding:15px 0;font-weight:600}
+@media only screen and (min-width: 1240px) {
+#Top_bar.is-sticky .menu_wrapper .menu > li > a{padding:9px 0!important}
+}
+#contact-page-div-mahi .wrap.mcb-wrap.one-fourth.co.valign-top.clearfix{height:420px;padding:20px 20px 10px;position:relative}
+#contact-page-div-mahi .wrap.mcb-wrap.one-fourth.co.valign-top.clearfix input{position:absolute;bottom:10px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}
+#Footer b{font-size:17px;font-weight:700;color:#f6c635!important}   
