@@ -1,4 +1,4 @@
-<footer id="Footer" class="clearfix">
+            <footer id="Footer" class="clearfix">
                 <div class="widgets_wrapper" style>
                     <div class="container">
                         <div class="column one-fourth">
@@ -93,7 +93,7 @@
             </footer>
         </div>
         <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet" property="stylesheet" type="text/css" media="all">
-        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+        <script data-cfasync="false" src="assets/js/email-decode.min.js"></script><script type="text/javascript">
             if(typeof revslider_showDoubleJqueryError === "undefined") {
               function revslider_showDoubleJqueryError(sliderID) {
                 var err = "<div class='rs_error_message_box'>";
@@ -108,33 +108,33 @@
               }
             }   
         </script>
-        <script type="text/javascript" src="https://atharvoverseas.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9" id="regenerator-runtime-js"></script>
-        <script type="text/javascript" src="https://atharvoverseas.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+        <script type="text/javascript" src="assets/js/regenerator-runtime.min.js?ver=0.13.9" id="regenerator-runtime-js"></script>
+        <script type="text/javascript" src="assets/js/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
         <script type="text/javascript" id="contact-form-7-js-extra">
             /* <![CDATA[ */
             var wpcf7 = {"api":{"root":"https:\/\/atharvoverseas.com\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
             /* ]]> */
         </script>
-        <script type="text/javascript" src="https://atharvoverseas.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.6" id="contact-form-7-js"></script>
-        <script type="text/javascript" src="https://atharvoverseas.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1" id="jquery-ui-core-js"></script>
-        <script type="text/javascript" src="https://atharvoverseas.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.1" id="jquery-ui-mouse-js"></script>
-        <script type="text/javascript" src="https://atharvoverseas.com/wp-includes/js/jquery/ui/sortable.min.js?ver=1.13.1" id="jquery-ui-sortable-js"></script>
-        <script type="text/javascript" src="https://atharvoverseas.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.13.1" id="jquery-ui-tabs-js"></script>
-        <script type="text/javascript" src="https://atharvoverseas.com/wp-includes/js/jquery/ui/accordion.min.js?ver=1.13.1" id="jquery-ui-accordion-js"></script>
-        <script type="text/javascript" src="https://atharvoverseas.com/wp-content/themes/betheme/js/plugins.js?ver=14.1" id="jquery-plugins-js"></script>
-        <script type="text/javascript" src="https://atharvoverseas.com/wp-content/themes/betheme/js/menu.js?ver=14.1" id="jquery-mfn-menu-js"></script>
-        <script type="text/javascript" src="https://atharvoverseas.com/wp-content/themes/betheme/assets/animations/animations.min.js?ver=14.1" id="jquery-animations-js"></script>
-        <script type="text/javascript" src="https://atharvoverseas.com/wp-content/themes/betheme/assets/jplayer/jplayer.min.js?ver=14.1" id="jquery-jplayer-js"></script>
-        <script type="text/javascript" src="https://atharvoverseas.com/wp-content/themes/betheme/js/parallax/translate3d.js?ver=14.1" id="jquery-mfn-parallax-js"></script>
-        <script type="text/javascript" src="https://atharvoverseas.com/wp-content/themes/betheme/js/scripts.js?ver=14.1" id="jquery-scripts-js"></script>
-        <script type="text/javascript" src="https://atharvoverseas.com/wp-includes/js/comment-reply.min.js?ver=5.9.7" id="comment-reply-js"></script>
-        <script type="text/javascript" src="https://atharvoverseas.com/wp-content/plugins/mystickyelements-pro/js/jquery.cookie.js?ver=2.0.3" id="mystickyelements-cookie-js-js"></script>
+        <script type="text/javascript" src="assets/js/index.js?ver=5.6" id="contact-form-7-js"></script>
+        <script type="text/javascript" src="assets/js/core.min.js?ver=1.13.1" id="jquery-ui-core-js"></script>
+        <script type="text/javascript" src="assets/js/mouse.min.js?ver=1.13.1" id="jquery-ui-mouse-js"></script>
+        <script type="text/javascript" src="assets/js/sortable.min.js?ver=1.13.1" id="jquery-ui-sortable-js"></script>
+        <script type="text/javascript" src="assets/js/tabs.min.js?ver=1.13.1" id="jquery-ui-tabs-js"></script>
+        <script type="text/javascript" src="assets/js/accordion.min.js?ver=1.13.1" id="jquery-ui-accordion-js"></script>
+        <script type="text/javascript" src="assets/js/plugins.js?ver=14.1" id="jquery-plugins-js"></script>
+        <script type="text/javascript" src="assets/js/menu.js?ver=14.1" id="jquery-mfn-menu-js"></script>
+        <script type="text/javascript" src="assets/js/animations.min.js?ver=14.1" id="jquery-animations-js"></script>
+        <script type="text/javascript" src="assets/js/jplayer.min.js?ver=14.1" id="jquery-jplayer-js"></script>
+        <script type="text/javascript" src="assets/js/translate3d.js?ver=14.1" id="jquery-mfn-parallax-js"></script>
+        <script type="text/javascript" src="assets/js/scripts.js?ver=14.1" id="jquery-scripts-js"></script>
+        <script type="text/javascript" src="assets/js/comment-reply.min.js?ver=5.9.7" id="comment-reply-js"></script>
+        <script type="text/javascript" src="assets/js/jquery.cookie.js?ver=2.0.3" id="mystickyelements-cookie-js-js"></script>
         <script type="text/javascript" id="mystickyelements-fronted-js-js-extra">
             /* <![CDATA[ */
             var mystickyelements = {"ajaxurl":"https:\/\/atharvoverseas.com\/wp-admin\/admin-ajax.php","ajax_nonce":"be856689b2","google_analytics":""};
             /* ]]> */
         </script>
-        <script type="text/javascript" src="https://atharvoverseas.com/wp-content/plugins/mystickyelements-pro/js/mystickyelements-fronted.min.js?ver=2.0.3" id="mystickyelements-fronted-js-js"></script>
+        <script type="text/javascript" src="assets/js/mystickyelements-fronted.min.js?ver=2.0.3" id="mystickyelements-fronted-js-js"></script>
         <script id="mfn-dnmc-custom-js">
             //<![CDATA[
             var s=document.createElement("script");
