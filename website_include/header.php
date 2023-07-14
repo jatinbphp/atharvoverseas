@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <link rel="shortcut icon" href="https://atharvoverseas.com/wp-content/uploads/2019/12/fevicon-1.png" />
-        <link rel="apple-touch-icon" href="https://atharvoverseas.com/wp-content/uploads/2019/12/fevicon-1.png" />
+        <link rel="shortcut icon" href="assets/img/home/fevicon-1.png" />
+        <link rel="apple-touch-icon" href="assets/img/home/fevicon-1.png" />
         <title>Atharv Education Mumbai &#8211; Atharv Education Mumbai</title>
         <script id="mfn-dnmc-config-js">
             //<![CDATA[
@@ -75,7 +75,7 @@
         <script id="mfn-dnmc-retina-js">
             //<![CDATA[
             jQuery(window).load(function(){
-            var retina = window.devicePixelRatio > 1 ? true : false;if( retina ){var retinaEl = jQuery("#logo img.logo-main");var retinaLogoW = retinaEl.width();var retinaLogoH = retinaEl.height();retinaEl.attr( "src", "https://atharvoverseas.com/wp-content/uploads/2022/02/Atharv-Overseas-new-logo-1.png" ).width( retinaLogoW ).height( retinaLogoH );var stickyEl = jQuery("#logo img.logo-sticky");var stickyLogoW = stickyEl.width();var stickyLogoH = stickyEl.height();stickyEl.attr( "src", "https://atharvoverseas.com/wp-content/uploads/2022/02/Atharv-Overseas-new-logo-1.png" ).width( stickyLogoW ).height( stickyLogoH );var mobileEl = jQuery("#logo img.logo-mobile");var mobileLogoW = mobileEl.width();var mobileLogoH = mobileEl.height();mobileEl.attr( "src", "https://atharvoverseas.com/wp-content/uploads/2022/02/Atharv-Overseas-new-logo-1.png" ).width( mobileLogoW ).height( mobileLogoH );}});
+            var retina = window.devicePixelRatio > 1 ? true : false;if( retina ){var retinaEl = jQuery("#logo img.logo-main");var retinaLogoW = retinaEl.width();var retinaLogoH = retinaEl.height();retinaEl.attr( "src", "assets/img/home/Atharv-Overseas-new-logo-1.png" ).width( retinaLogoW ).height( retinaLogoH );var stickyEl = jQuery("#logo img.logo-sticky");var stickyLogoW = stickyEl.width();var stickyLogoH = stickyEl.height();stickyEl.attr( "src", "assets/img/home/Atharv-Overseas-new-logo-1.png" ).width( stickyLogoW ).height( stickyLogoH );var mobileEl = jQuery("#logo img.logo-mobile");var mobileLogoW = mobileEl.width();var mobileLogoH = mobileEl.height();mobileEl.attr( "src", "assets/img/home/Atharv-Overseas-new-logo-1.png" ).width( mobileLogoW ).height( mobileLogoH );}});
             //]]>
         </script>
         <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress." />
