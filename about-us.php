@@ -1,4 +1,4 @@
-<?php include 'website_include/header.php' ?>
+<?php include 'includes/header.php' ?>
 
     <div id="Content">
         <div class="content_wrapper clearfix">
@@ -126,4 +126,4 @@
             </div>
         </div>
     </div>
-<?php include 'website_include/footer.php' ?>
+<?php include 'includes/footer.php' ?>

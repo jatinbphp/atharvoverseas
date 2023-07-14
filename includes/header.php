@@ -130,9 +130,9 @@
                     </div>
                     <div class="header_placeholder"></div>
 
-                    <?php include 'website_include/top_menu.php' ?>
+                    <?php include 'includes/top_menu.php' ?>
 
                 </header>
 
-                <?php include 'website_include/sub-header.php' ?>
+                <?php include 'includes/sub-header.php' ?>
             </div>

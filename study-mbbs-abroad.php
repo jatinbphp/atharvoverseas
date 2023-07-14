@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<?php include 'website_include/header.php' ?>
+<?php include 'includes/header.php' ?>
   <body class="page-template-default page page-id-4127 template-slider color-custom style-default layout-full-width mobile-tb-left no-content-padding hide-love header-classic sticky-header sticky-white ab-show subheader-title-left wpb-js-composer js-comp-ver-4.12 vc_responsive nice-scroll">
     <div id="Wrapper">
       <div id="Header_wrapper">
@@ -649,5 +649,5 @@
       </div>
     </div>
 </body>
-<?php include 'website_include/footer.php' ?>
+<?php include 'includes/footer.php' ?>
 </html>

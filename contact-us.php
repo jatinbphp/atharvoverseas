@@ -1,5 +1,5 @@
-<?php include 'website_include/header.php' ?>
-<?php include 'website_include/home-slider.php' ?>
+<?php include 'includes/header.php' ?>
+<?php include 'includes/home-slider.php' ?>
 <div id="Content">
    <div class="content_wrapper clearfix">
       <div class="sections_group">
@@ -566,4 +566,4 @@
       </div>
    </div>
 </div>
-<?php include 'website_include/footer.php' ?>
+<?php include 'includes/footer.php' ?>

@@ -22,17 +22,17 @@
       <change afterPath="$PROJECT_DIR$/contact-us.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/database/atharvoverseas.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website_include/home-slider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website_include/sub-header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/home-slider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/sub-header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about-us.php" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/font-awesome.min(1).css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/font-awesome.min1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/font-awesome.min(2).css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/font-awesome.min2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/font-awesome.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website_include/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/website_include/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website_include/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/website_include/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website_include/top_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/website_include/top_menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/top_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/top_menu.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
