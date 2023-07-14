@@ -5,9 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ec1b934-4337-478c-8356-fe544cb03dc4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/contact_us/Atharv-Overseas-new-logo-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/contact_us/call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/contact_us/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/contact_us/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/contact_us/whatsapp1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/services/Atharv-Overseas-new-logo-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/services/End-to-End-Admission-Guidance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/services/Free-Counselling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/services/University-and-Program-Selection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/services/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/services/service_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/services/service_banner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/services/visa-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/email-decode.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact-us.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/atharvoverseas.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/website_include/home-slider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/website_include/sub-header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about-us.php" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/include/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/include/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/font-awesome.min(1).css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/font-awesome.min1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/font-awesome.min(2).css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/font-awesome.min2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website_include/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/website_include/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website_include/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/website_include/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website_include/top_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/website_include/top_menu.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +59,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Merging main",
     "last_opened_file_path": "/var/www/html/atharvoverseas",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -59,7 +84,7 @@
       <updated>1689239178074</updated>
       <workItem from="1689239179324" duration="12039000" />
       <workItem from="1689306548856" duration="12956000" />
-      <workItem from="1689323870877" duration="12096000" />
+      <workItem from="1689323870877" duration="12395000" />
     </task>
     <servers />
   </component>
