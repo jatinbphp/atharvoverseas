@@ -134,5 +134,9 @@
 
                 </header>
 
-                <?php include 'includes/sub-header.php' ?>
+                <?php 
+                $pageName = basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']);
+                if($pageName!='index.php'){
+                    include 'includes/sub-header.php';
+                }?>
             </div>
