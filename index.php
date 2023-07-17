@@ -1,5 +1,5 @@
 <?php include 'includes/header.php' ?>
-<?php include 'includes/home-slider.php' ?>
+<?php //include 'includes/home-slider.php' ?>
 <div id="Content">
     <div class="content_wrapper clearfix">
         <div class="sections_group">
@@ -93,20 +93,18 @@
                                                     <p role="status" aria-live="polite" aria-atomic="true"></p>
                                                     <ul></ul>
                                                 </div>
-                                                <form action="/#wpcf7-f6-p4148-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
-                                                    <div style="display: none;">
-                                                        <input type="hidden" name="_wpcf7" value="6" />
-                                                        <input type="hidden" name="_wpcf7_version" value="5.6" />
-                                                        <input type="hidden" name="_wpcf7_locale" value="en_US" />
-                                                        <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f6-p4148-o1" />
-                                                        <input type="hidden" name="_wpcf7_container_post" value="4148" />
-                                                        <input type="hidden" name="_wpcf7_posted_data_hash" value />
-                                                    </div>
-                                                    <p><label> <span class="wpcf7-form-control-wrap" data-name="your-name"><input type="text" name="your-name" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Name" /></span> </label><br/>
-                                                        <label> <span class="wpcf7-form-control-wrap" data-name="your-email"><input type="email" name="your-email" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email Id" /></span> </label><br/>
-                                                        <label> <span class="wpcf7-form-control-wrap" data-name="telephone-number"><input type="tel" name="telephone-number" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="Contact No." /></span> </label><br/>
-                                                        <label> <span class="wpcf7-form-control-wrap" data-name="text-428"><input type="text" name="text-428" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Message" /></span></label><br/>
-                                                        <input type="submit" value="Send" class="wpcf7-form-control has-spinner wpcf7-submit" />
+                                                <form action="javascript:void(0)" method="post" class="wpcf7-form init wpcf7-form-home" novalidate="novalidate" data-status="init">
+                                                    <p>
+                                                        <label> <span class="wpcf7-form-control-wrap" data-name="your-name"><input type="text" name="your-name" id="home-your-name" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Name" /></span> </label><br/>
+                                                    
+                                                        <label> <span class="wpcf7-form-control-wrap" data-name="your-email"><input type="email" name="your-email" id="home-your-email" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email Id" /></span> </label><br/>
+                                                    
+                                                        <label> <span class="wpcf7-form-control-wrap" data-name="telephone-number"><input type="tel" name="telephone-number" id="home-your-telephone_number" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="Contact No." /></span> </label><br/>
+                                                    
+                                                        <label> <span class="wpcf7-form-control-wrap" data-name="text-message"><input type="text" name="your-message" id="home-your-message" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Message" /></span></label><br/>
+
+                                                        <input type="button" value="Send" class="wpcf7-form-control has-spinner wpcf7-submitHome" />
+                                                        <span class="wpcf7-spinner"></span>
                                                     </p>
                                                     <div class="wpcf7-response-output" aria-hidden="true"></div>
                                                 </form>
