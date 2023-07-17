@@ -1,5 +1,5 @@
 <?php include 'includes/header.php' ?>
-<?php //include 'includes/home-slider.php' ?>
+<?php include 'includes/home-slider.php' ?>
 <div id="Content">
     <div class="content_wrapper clearfix">
         <div class="sections_group">
