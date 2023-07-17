@@ -3,17 +3,17 @@
     <rs-module-wrap id="rev_slider_3_1_wrapper" data-source="gallery" style="padding:0;margin:0px auto;margin-top:0;margin-bottom:0;max-width:">
         <rs-module id="rev_slider_3_1" style="display:none;" data-version="6.1.0">
             <rs-slides>
-                <rs-slide data-key="rs-5" data-title="Slide" data-thumb="//atharvoverseas.com/wp-content/uploads/2022/06/slide002-100x50.jpg" data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:7;">
-                    <img src="//atharvoverseas.com/wp-content/uploads/2022/06/slide002.jpg" alt="study atharvoverseas" title="slide002" width="1990" height="726" data-bg="p:center top;" class="rev-slidebg" data-no-retina>
+                <rs-slide data-key="rs-5" data-title="Slide" data-thumb="assets/img/home/slide002-100x50.jpg" data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:7;">
+                    <img src="assets/img/home/slide002.jpg" alt="study atharvoverseas" title="slide002" width="1990" height="726" data-bg="p:center top;" class="rev-slidebg" data-no-retina>
                 </rs-slide>
-                <rs-slide data-key="rs-6" data-title="Slide" data-thumb="//atharvoverseas.com/wp-content/uploads/2021/10/Atharv-Overseas-Web-Banner-100x50.jpg" data-anim="ei:d;eo:d;s:300;r:0;t:random;sl:7;">
-                    <img src="//atharvoverseas.com/wp-content/uploads/2021/10/Atharv-Overseas-Web-Banner.jpg" title="Home main" data-bg="p:center top;" class="rev-slidebg" data-no-retina>
+                <rs-slide data-key="rs-6" data-title="Slide" data-thumb="assets/img/home/Atharv-Overseas-Web-Banner-100x50.jpg" data-anim="ei:d;eo:d;s:300;r:0;t:random;sl:7;">
+                    <img src="assets/img/home/Atharv-Overseas-Web-Banner.jpg" title="Home main" data-bg="p:center top;" class="rev-slidebg" data-no-retina>
                 </rs-slide>
-                <rs-slide data-key="rs-7" data-title="Slide" data-thumb="//atharvoverseas.com/wp-content/uploads/2022/06/slide001-100x50.jpg" data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:7;">
-                    <img src="//atharvoverseas.com/wp-content/uploads/2022/06/slide001.jpg" alt="study atharvoverseas" title="slide001" width="1990" height="726" data-bg="p:center top;" class="rev-slidebg" data-no-retina>
+                <rs-slide data-key="rs-7" data-title="Slide" data-thumb="assets/img/home/slide001-100x50.jpg" data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:7;">
+                    <img src="assets/img/home/slide001.jpg" alt="study atharvoverseas" title="slide001" width="1990" height="726" data-bg="p:center top;" class="rev-slidebg" data-no-retina>
                 </rs-slide>
-                <rs-slide data-key="rs-8" data-title="Slide" data-thumb="//atharvoverseas.com/wp-content/uploads/2021/10/Atharv-Overseas-Web-Banner1-100x50.jpg" data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:7;">
-                    <img src="//atharvoverseas.com/wp-content/uploads/2021/10/Atharv-Overseas-Web-Banner1.jpg" title="Home main" data-bg="p:center top;" class="rev-slidebg" data-no-retina>
+                <rs-slide data-key="rs-8" data-title="Slide" data-thumb="assets/img/home/Atharv-Overseas-Web-Banner1-100x50.jpg" data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:7;">
+                    <img src="assets/img/home/Atharv-Overseas-Web-Banner1.jpg" title="Home main" data-bg="p:center top;" class="rev-slidebg" data-no-retina>
                 </rs-slide>
             </rs-slides>
             <rs-progress class="rs-bottom" style="visibility: hidden !important;"></rs-progress>

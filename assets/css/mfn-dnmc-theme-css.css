@@ -1,0 +1,83 @@
+.header-classic #Action_bar,.header-plain #Action_bar,.header-stack #Action_bar{background-color:#01102f!important;padding:2px;font-size:15px}
+#Footer{background-color:#01102f}
+#Top_bar .menu > li > a span:not(.description){border-style:hidden}
+#Top_bar .search_wrapper{background:#e21f27!important}
+#Header .top_bar_left,.header-classic #Top_bar,.header-plain #Top_bar,.header-stack #Top_bar,.header-split #Top_bar,.header-fixed #Top_bar,.header-below #Top_bar,#Header_creative,#Top_bar #menu,.sticky-tb-color #Top_bar.is-sticky{background:linear-gradient(135deg,rgba(255,255,255,1) 0%,rgba(255,255,255,1) 30%,rgba(254,204,54,1) 30%,rgba(254,204,54,1) 100%)}
+#Top_bar .menu_wrapper{float:right;z-index:201;margin-left:87px}
+#Top_bar .menu > li.current-menu-item > a,#Top_bar .menu > li.current_page_item > a,#Top_bar .menu > li.current-menu-parent > a,#Top_bar .menu > li.current-page-parent > a,#Top_bar .menu > li.current-menu-ancestor > a,#Top_bar .menu > li.current-page-ancestor > a,#Top_bar .menu > li.current_page_ancestor > a,#Top_bar .menu > li.hover > a{color:#f9fcfc}
+#Top_bar .menu > li a:after{background:#fafafa}
+.itbrood{text-align:justify;color:#333;font-size:16px;font-family:"Open Sans",sans-serif;line-height:2em;font-weight:600}
+.fancy_heading .title{font-size:24px;line-height:0}
+.themecolor,.opening_hours .opening_hours_wrapper li span,.fancy_heading_icon .icon_top,.fancy_heading_arrows .icon-right-dir,.fancy_heading_arrows .icon-left-dir,.fancy_heading_line .title,.button-love a.mfn-love,.format-link .post-title .icon-link,.pager-single > span,.pager-single a:hover,.widget_meta ul,.widget_pages ul,.widget_rss ul,.widget_mfn_recent_comments ul li:after,.widget_archive ul,.widget_recent_comments ul li:after,.widget_nav_menu ul,.woocommerce ul.products li.product .price,.shop_slider .shop_slider_ul li .item_wrapper .price,.woocommerce-page ul.products li.product .price,.widget_price_filter .price_label .from,.widget_price_filter .price_label .to,.woocommerce ul.product_list_widget li .quantity .amount,.woocommerce .product div.entry-summary .price,.woocommerce .star-rating span,#Error_404 .error_pic i,.style-simple #Filters .filters_wrapper ul li a:hover,.style-simple #Filters .filters_wrapper ul li.current-cat a,.style-simple .quick_fact .title{color:#01102f}
+h2,h2 a,h2 a:hover{color:#01102f}
+.column_column ul,.column_column ol,.the_content_wrapper ul,.the_content_wrapper ol{color:#01102f;line-height:24px}
+.how_it_works .image{width:154px;height:151px;line-height:141px;text-align:center;position:relative;margin:0 auto 15px;background:linear-gradient(135deg,#a27979 0%,#000 100%);border-width:2px;border-style:solid;-webkit-border-radius:100%;border-radius:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.counter .icon_wrapper i{color:#f6c635}
+span.number{color:#fff}
+.desc_wrapper .title{font-size:20px!important;color:#fff!important}
+.fancy_heading .title{font-size:24px;line-height:0;text-transform:uppercase}
+.pricing-box.pricing-box-box{background:linear-gradient(135deg,#ff2e31 0%,#da2427 100%);border:0 solid #01102f9e;border-radius:5px}
+.plan-header h2{color:#fff;font-size:18px!important}
+.pricing-box .plan-header .price sup.currency,.pricing-box .plan-header .price > span{color:#1d1d1d;font-size:16px;font-weight:600}
+.pricing-box .plan-header .price{margin:-24px 0 0}
+.plan-footer{margin-top:10px}
+a.button_theme,a.tp-button.button_theme,button,input[type="submit"],input[type="reset"],input[type="button"]{background-color:#fdcd3b}
+@media (max-width: 767px) {
+.wrap.mcb-wrap.one-second.dmce.valign-top.clearfix{border-radius:57px 11px 0 13px!important;margin-top:33px!important}
+.wrap.mcb-wrap.one-second.dmp.valign-top.clearfix{border-radius:55px 8px 16px 0!important}
+body:not(.template-slider):not(.header-simple) #Header{min-height:90px!important;background-position:center 202px}
+div#Action_bar{display:none}
+i.icon-mail-line{color:#fff}
+i.icon-phone{color:#fff}
+#Action_bar .contact_details li{display:inline-grid}
+#Action_bar .contact_details{display:flex}
+#Top_bar .menu > li > a{color:#3bb3ce}
+#Top_bar .menu_wrapper{float:left!important;width:123%;margin:0 0 0 -34px !important}
+body:not(.template-slider):not(.header-simple) #Header{min-height:146px;background-position:center 202px}
+#Header .top_bar_left,.header-classic #Top_bar,.header-plain #Top_bar,.header-stack #Top_bar,.header-split #Top_bar,.header-fixed #Top_bar,.header-below #Top_bar,#Header_creative,#Top_bar #menu,.sticky-tb-color #Top_bar.is-sticky{background:#01102f}
+.top_bar_right{display:none}
+#Top_bar #logo img.logo-mobile{margin-left:-106px}
+.fancy_heading.fancy_heading_icon h2{line-height:32px}
+.itbrood{text-align:justify;color:#333;font-size:13px;font-family:"Open Sans",sans-serif;line-height:20px;font-weight:600}
+}
+.header-classic #Action_bar,.header-plain #Action_bar,.header-stack #Action_bar{background-color:#5c4c52;padding:0;font-size:13px}
+#Top_bar.is-sticky .menu_wrapper{clear:none;margin-left:154px!important}
+body:not(.template-slider) #Header{min-height:138px}
+#Subheader{background:#01102f}
+li{list-style:none!important}
+b{color:#db242b!important}
+.ui-tabs .ui-tabs-nav li a,.accordion .question .title,.faq .question .title,table th{padding:6px!important;background:#f6cb3a!important;font-size:14px!important;letter-spacing:1px!important;border:1px solid #fff}
+.idea_box,.ui-tabs,.accordion .question,.accordion .question.active .title,.accordion .question .title:before,.ui-tabs .ui-tabs-nav,.ui-tabs .ui-tabs-nav li,.tabs_vertical.ui-tabs .ui-tabs-panel,table th,table td,.list_item .circle,input[type="date"],input[type="email"],input[type="number"],input[type="password"],input[type="search"],input[type="tel"],input[type="text"],input[type="url"],select,textarea,.promo_box.has_border:after,dl > dt,dl > dd,.article_box .desc_wrapper p,a.icon_bar,a.content_link,.how_it_works .image,.opening_hours,.opening_hours .opening_hours_wrapper li,.icon_box.has_border:after,.chart_box:before,.pricing-box,.team_list .bq_wrapper,.post-footer .post-links,.format-link .post-title .icon-link,.share_wrapper,.post-header .title_wrapper,.section-post-related .section-related-adjustment,#comments > :first-child,.widget-area,.widget:after,.fixed-nav .desc h6,.portfolio_group.list .portfolio-item,.portfolio_group .portfolio-item .desc .details-wrapper,.Recent_posts ul li .desc h6,.widget_recent_entries ul li a,.woocommerce .widget_best_sellers li,.woocommerce .widget_featured_products li,.woocommerce .widget_recent_reviews li,.woocommerce .widget_recent_products li,.woocommerce .widget_recently_viewed_products li,.woocommerce .widget_random_products li,.woocommerce .widget_top_rated_products li,.woocommerce .widget_onsale li,.woocommerce .widget_layered_nav li,.woocommerce .widget_shopping_cart ul.product_list_widget li,.woocommerce .widget_products li,.woocommerce .product .related.products,.woocommerce .product .upsells.products,.woocommerce .product div.entry-summary h1.product_title:after,.woocommerce .quantity input.qty,.header-stack #Top_bar .logo,.offer_thumb .slider_pagination,.offer_thumb .slider_pagination a,.Latest_news ul li .desc_footer,.Latest_news ul li .photo,.offer_thumb.bottom .slider_pagination a,.style-simple .faq .question,.style-simple #Filters .filters_wrapper ul,#edd_checkout_cart th,#edd_checkout_cart td{border-color:rgba(202,195,195,0.99);color:#fff}
+.red_title{color:red;float:left}
+.itbrood1{text-align:justify;color:#333;font-family:"Open Sans",sans-serif;line-height:2em;font-weight:600}
+.date_label{display:none!important}
+.item_wrapper .desc h4{font-size:15px;text-align:center}
+.blog_slider.flat .blog_slider_header a.button.slider_prev,.blog_slider.flat .blog_slider_header a.button.slider_next{width:45px;border:0;box-shadow:inset 0 0 0 0;background-image:none;background-color:rgba(157,155,155,0.7)!important;border-radius:136px;height:44px;margin-top:54px}
+.blog_slider.flat .blog_slider_header a:hover.button.slider_prev,.blog_slider.flat .blog_slider_header a:hover.button.slider_next{background-color:rgba(190,83,83,0.7)!important;border-radius:136px;height:45px;margin-top:54px}
+.tiv{font-size:17px;color:#000;letter-spacing:0;font-weight:700;line-height:36px}
+.idea_box,.ui-tabs,.accordion .question,.accordion .question.active .title,.accordion .question .title:before,.ui-tabs .ui-tabs-nav,.ui-tabs .ui-tabs-nav li,.tabs_vertical.ui-tabs .ui-tabs-panel,table th,table td,.list_item .circle,input[type="date"],input[type="email"],input[type="number"],input[type="password"],input[type="search"],input[type="tel"],input[type="text"],input[type="url"],select,textarea,.promo_box.has_border:after,dl > dt,dl > dd,.article_box .desc_wrapper p,a.icon_bar,a.content_link,.how_it_works .image,.opening_hours,.opening_hours .opening_hours_wrapper li,.icon_box.has_border:after,.chart_box:before,.pricing-box,.team_list .bq_wrapper,.post-footer .post-links,.format-link .post-title .icon-link,.share_wrapper,.post-header .title_wrapper,.section-post-related .section-related-adjustment,#comments > :first-child,.widget-area,.widget:after,.fixed-nav .desc h6,.portfolio_group.list .portfolio-item,.portfolio_group .portfolio-item .desc .details-wrapper,.Recent_posts ul li .desc h6,.widget_recent_entries ul li a,.woocommerce .widget_best_sellers li,.woocommerce .widget_featured_products li,.woocommerce .widget_recent_reviews li,.woocommerce .widget_recent_products li,.woocommerce .widget_recently_viewed_products li,.woocommerce .widget_random_products li,.woocommerce .widget_top_rated_products li,.woocommerce .widget_onsale li,.woocommerce .widget_layered_nav li,.woocommerce .widget_shopping_cart ul.product_list_widget li,.woocommerce .widget_products li,.woocommerce .product .related.products,.woocommerce .product .upsells.products,.woocommerce .product div.entry-summary h1.product_title:after,.woocommerce .quantity input.qty,.header-stack #Top_bar .logo,.offer_thumb .slider_pagination,.offer_thumb .slider_pagination a,.Latest_news ul li .desc_footer,.Latest_news ul li .photo,.offer_thumb.bottom .slider_pagination a,.style-simple .faq .question,.style-simple #Filters .filters_wrapper ul,#edd_checkout_cart th,#edd_checkout_cart td{border-color:rgba(202,195,195,0.99);color:#0f0f0f}
+.mystickyelement-credit{display:none}
+.blog_slider.flat .blog_slider_header a.button.slider_prev .button_icon,.blog_slider.flat .blog_slider_header a.button.slider_next .button_icon{margin-top:-9px}
+.section.section-post-header{display:none}
+.column.one.single-photo-wrapper.image{display:none}
+.post-header .title_wrapper h1{font-size:35px;line-height:13px;text-align:center;color:#011035}
+i.fa.fa-paper-plane{color:#58a717;padding-right:10px;padding-top:10px}
+.wrap.mcb-wrap.one-second.dmce.valign-top.clearfix{background-image:linear-gradient(#b9c9e8,#83ba55);padding:39px 27px 0;border:2px Solid #d7dae0;border-radius:9px 190px 0 13px;box-shadow:10px 10px 5px #8080807d;margin-bottom:40px;margin-left:0}
+.wrap.mcb-wrap.one-second.dmp.valign-top.clearfix{background-image:linear-gradient(#b9c9e8,#83ba55);padding:34px 20px 49px;border:2px Solid #d7dae0;border-radius:194px 8px 16px 0;box-shadow:-6px 10px 5px #8080807d}
+.co{border:2px solid #f8f8f8!important}
+#text-21 li:nth-child(11) a{color:#01102f!important;font-size:2px!important;cursor:unset}
+#text-21 li:nth-child(12) a{color:#01102f!important;font-size:2px!important;cursor:unset}
+#text-21 li:nth-child(13) a{color:#01102f!important;font-size:2px!important;cursor:unset}
+#text-21 li:nth-child(11){height:5px}
+#text-21 li:nth-child(12){height:5px}
+#text-21 li:nth-child(13){height:5px}
+.pricing-box .plan-header hr{background:#fff}
+.plan-footer .button.button_theme.button_js{background-color:#000!important}
+.plan-footer .button_label{padding:5px 20px!important}
+.how_it_works .image{border-color:#6a6a6a!important}
+.section-post-related .post-related .image_frame{margin-left:0;margin-bottom:0}
+.section-post-related .post-related a.button{margin-left:0;margin-bottom:0}
+.section-post-related .post-related hr{margin-left:0;width:100%}
+.image_frame .image_wrapper .image_links a{display:block;font-size:25px;line-height:43px}
+.image_frame .image_wrapper .image_links{width:100%;height:40px}
+.section-post-related .post-related h4{font-size:16px} 
