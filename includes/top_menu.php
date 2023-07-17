@@ -3,12 +3,12 @@
         <div class="column one">
             <div class="top_bar_left clearfix">
                 <div class="logo">
-                    <a id="logo" href="https://atharvoverseas.com" title="Atharv Education Mumbai"><img class="logo-main scale-with-grid" src="https://atharvoverseas.com/wp-content/uploads/2022/02/Atharv-Overseas-new-logo-1.png" alt="Atharv-Overseas-new-logo" /><img class="logo-sticky scale-with-grid" src="https://atharvoverseas.com/wp-content/uploads/2022/02/Atharv-Overseas-new-logo-1.png" alt="Atharv-Overseas-new-logo" /><img class="logo-mobile scale-with-grid" src="https://atharvoverseas.com/wp-content/uploads/2022/02/Atharv-Overseas-new-logo-1.png" alt="Atharv-Overseas-new-logo" /></a> 
+                    <a id="logo" href="index.php" title="Atharv Education Mumbai"><img class="logo-main scale-with-grid" src="assets/img/home/Atharv-Overseas-new-logo-1.png" alt="Atharv-Overseas-new-logo" /><img class="logo-sticky scale-with-grid" src="assets/img/home/Atharv-Overseas-new-logo-1.png" alt="Atharv-Overseas-new-logo" /><img class="logo-mobile scale-with-grid" src="assets/img/home/Atharv-Overseas-new-logo-1.png" alt="Atharv-Overseas-new-logo" /></a> 
                 </div>
                 <div class="menu_wrapper">
                     <nav id="menu" class="menu-main-menu-container">
                         <ul id="menu-main-menu" class="menu">
-                            <li id="menu-item-4152" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4148 current_page_item"><a href="https://atharvoverseas.com/"><span>Home</span></a></li>
+                            <li id="menu-item-4152" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4148 current_page_item"><a href="index.php"><span>Home</span></a></li>
                             <li id="menu-item-3215" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="about-us.php"><span>ABOUT</span></a></li>
                             <li id="menu-item-4164" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
                                 <a href="https://atharvoverseas.com/study-mbbs-abroad/"><span>STUDY MBBS</span></a>

@@ -9,7 +9,7 @@
                             <div class="mcb-wrap-inner">
                                 <div class="column mcb-column one-third column_list ">
                                     <div class="list_item lists_2 clearfix">
-                                        <div class="list_left list_image"><img src="https://atharvoverseas.com/wp-content/uploads/2020/01/mail.png" class="scale-with-grid" alt="mail" width="64" height="64"></div>
+                                        <div class="list_left list_image"><img src="assets/img/contact_us/mail.png" class="scale-with-grid" alt="mail" width="64" height="64"></div>
                                         <div class="list_right">
                                             <div class="desc">
                                                 <big style="padding-top: 12px; display: block">Have any questions?</big>
@@ -22,7 +22,7 @@
                                 </div>
                                 <div class="column mcb-column one-third column_list ">
                                     <div class="list_item lists_2 clearfix">
-                                        <div class="list_left list_image"><img src="https://atharvoverseas.com/wp-content/uploads/2020/01/call.png" class="scale-with-grid" alt="call" width="64" height="64"></div>
+                                        <div class="list_left list_image"><img src="assets/img/contact_us/call.png" class="scale-with-grid" alt="call" width="64" height="64"></div>
                                         <div class="list_right">
                                             <div class="desc">
                                                 <big style="padding-top: 12px; display: block">Call us</big>
@@ -33,7 +33,7 @@
                                 </div>
                                 <div class="column mcb-column one-third column_list ">
                                     <div class="list_item lists_2 clearfix">
-                                        <div class="list_left list_image"><img src="https://atharvoverseas.com/wp-content/uploads/2020/01/whatsapp1.png" class="scale-with-grid" alt="whatsapp(1)" width="64" height="64"></div>
+                                        <div class="list_left list_image"><img src="assets/img/contact_us/whatsapp1.png" class="scale-with-grid" alt="whatsapp(1)" width="64" height="64"></div>
                                         <div class="list_right">
                                             <div class="desc">
                                                 <big style="padding-top: 12px; display: block">Whatapp</big>
@@ -73,21 +73,21 @@
                                                 <p role="status" aria-live="polite" aria-atomic="true"></p>
                                                 <ul></ul>
                                             </div>
-                                            <form action="https://atharvoverseas.com/contact-us/#wpcf7-f50-p48-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
-                                                <div style="display: none;">
-                                                    <input type="hidden" name="_wpcf7" value="50">
-                                                    <input type="hidden" name="_wpcf7_version" value="5.6">
-                                                    <input type="hidden" name="_wpcf7_locale" value="en_US">
-                                                    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f50-p48-o1">
-                                                    <input type="hidden" name="_wpcf7_container_post" value="48">
-                                                    <input type="hidden" name="_wpcf7_posted_data_hash" value="">
-                                                </div>
-                                                <div class="column one-third"><label>Name:</label><span class="wpcf7-form-control-wrap" data-name="your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></span></div>
-                                                <div class="column one-third"><label>E-mail address:</label><span class="wpcf7-form-control-wrap" data-name="your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false"></span></div>
-                                                <div class="column one-third"><label>Subject:</label><span class="wpcf7-form-control-wrap" data-name="your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span></div>
-                                                <div class="column one"><label>Message:</label><span class="wpcf7-form-control-wrap" data-name="your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span></div>
-                                                <div class="column one"><input type="submit" value="Send message" class="wpcf7-form-control has-spinner wpcf7-submit"><span class="wpcf7-spinner"></span></div>
+                                            <form action="contact-us.php" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+                                             
+                                                <div class="column one-third"><label>Name:</label><span class="wpcf7-form-control-wrap" data-name="your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" id="your-name-contact" required></span></div>
+
+                                                <div class="column one-third"><label>E-mail address:</label><span class="wpcf7-form-control-wrap" data-name="your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" id="your-email-contact" required></span></div>
+                                                
+
+                                                <div class="column one-third"><label>Subject:</label><span class="wpcf7-form-control-wrap" data-name="your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" required id="your-subject-contact"></span></div>
+
+                                                <div class="column one"><label>Message:</label><span class="wpcf7-form-control-wrap" data-name="your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" required id="your-message-contact"></textarea></span></div>
+
+                                                <div class="column one"><input type="button" value="Send message" class="wpcf7-form-control has-spinner wpcf7-submitContact"><span class="wpcf7-spinner"></span></div>
+
                                                 <input type="hidden" class="wpcf7-pum" value="{&quot;closepopup&quot;:false,&quot;closedelay&quot;:0,&quot;openpopup&quot;:false,&quot;openpopup_id&quot;:0}">
+
                                                 <div class="wpcf7-response-output" aria-hidden="true"></div>
                                             </form>
                                         </div>
