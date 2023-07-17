@@ -1,3 +1,5 @@
+<?php 
+include "postRequest/dbConnection.php"; ?>
 <!DOCTYPE html>
 <html class="no-js" lang="en-US">
     <head>

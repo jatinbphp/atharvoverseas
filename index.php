@@ -1,86 +1,111 @@
-<?php include 'includes/header.php' ?>
-<?php include 'includes/home-slider.php' ?>
+<?php 
+include 'includes/header.php';
+include 'includes/home-slider.php';
+
+$EDUCATION_CONSULTANCY = [];
+$sql1 = "SELECT * FROM section WHERE id= 1";
+$result1 = mysqli_query($conn, $sql1);
+if (mysqli_num_rows($result1) === 1) {
+    $EDUCATION_CONSULTANCY = mysqli_fetch_assoc($result1);
+}
+
+$STUDY_IN_ABROAD = [];
+$sql2 = "SELECT * FROM section WHERE id= 2";
+$result2 = mysqli_query($conn, $sql2);
+if (mysqli_num_rows($result2) === 1) {
+    $STUDY_IN_ABROAD = mysqli_fetch_assoc($result2);
+} ?>
+
 <div id="Content">
     <div class="content_wrapper clearfix">
         <div class="sections_group">
             <div class="entry-content" itemprop="mainContentOfPage">
-                <div class="section mcb-section   " style="padding-top:50px; padding-bottom:10px; background-color:#f4f4f4">
-                    <div class="section_wrapper mcb-section-inner">
-                        <div class="wrap mcb-wrap one  valign-top clearfix" style>
-                            <div class="mcb-wrap-inner">
-                                <div class="column mcb-column one column_fancy_heading ">
-                                    <div class="fancy_heading fancy_heading_icon">
-                                        <div class="animate" data-anim-type="fadeInUp">
-                                            <h2 class="title">ABOUT ATHARV OVERSEAS <span class="themecolor">EDUCATION CONSULTANCY </span></h2>
-                                            <div class="inside"><img class="scale-with-grid" src="assets/img/slid.png" alt="line" style="
-                                                width: 41%;
-                                                height: 6px;
-                                                " /></div>
+
+                <?php 
+                if(!empty($EDUCATION_CONSULTANCY['title']) || !empty($EDUCATION_CONSULTANCY['content'])){ ?>
+
+                    <div class="section mcb-section   " style="padding-top:50px; padding-bottom:10px; background-color:#f4f4f4">
+                        <div class="section_wrapper mcb-section-inner">
+                            <div class="wrap mcb-wrap one  valign-top clearfix" style>
+                                <div class="mcb-wrap-inner">
+
+                                    <?php 
+                                    if(!empty($EDUCATION_CONSULTANCY['title'])){ ?>
+
+                                        <div class="column mcb-column one column_fancy_heading ">
+                                            <div class="fancy_heading fancy_heading_icon">
+                                                <div class="animate" data-anim-type="fadeInUp">
+                                                    <h2 class="title">
+                                                        <?php 
+                                                        if(!empty($EDUCATION_CONSULTANCY['title'])){
+                                                            echo $EDUCATION_CONSULTANCY['title'];
+                                                        } ?>
+                                                    </h2>
+                                                    <div class="inside"><img class="scale-with-grid" src="assets/img/slid.png" alt="line" style="
+                                                        width: 41%;
+                                                        height: 6px;
+                                                        " /></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <?php
+                                    } ?>
+
+                                    <?php 
+                                    if(!empty($EDUCATION_CONSULTANCY['content'])){ ?>
+                                        <div class="column mcb-column three-fifth column_column  column-margin-">
+                                            <div class="column_attr clearfix" style>
+                                                <?php 
+                                                if(!empty($EDUCATION_CONSULTANCY['content'])){
+                                                    echo $EDUCATION_CONSULTANCY['content'];
+                                                } ?>
+                                            </div>
+                                        </div>
+                                    <?php
+                                    } ?>
+
+                                    <div class="column mcb-column two-fifth column_image ">
+                                        <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                            <div class="image_wrapper"><img class="scale-with-grid" src="assets/img/home/banner-new1.jpg" alt="banner-new1" width="778" height="755" /></div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="column mcb-column three-fifth column_column  column-margin-">
-                                    <div class="column_attr clearfix" style>
-                                        <p class="itbrood">Over the decades, Atharv Overseas Education Consultancy has been helping students to have the right course and assisting them in their visa processing. We have an experienced team of educational counselors who believe in maintaining transparency and focusing on accomplishing dreams.
-                                            We have a team of education counsellors and career guidance and always guide students to achieve their career goals. We have expertise in providing the right guidance for overseas education and helping students choose the best country, university, and courses to accomplish a successful career.
-                                        </p>
-                                        <p class="itbrood">We have a team of education counselors who help in achieving scholarships and assist the students in building a better career overseas without feeling debt burdens. Our experts understand the right guidance is necessary because many students are trapped between overwhelming courses and cannot get the right-click. We have a solution for all your needs.
-                                            Till now, we have successfully helped thousands of students in choosing the right career and assisted them with their visa processes. 
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="column mcb-column two-fifth column_image ">
-                                    <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                        <div class="image_wrapper"><img class="scale-with-grid" src="assets/img/home/banner-new1.jpg" alt="banner-new1" width="778" height="755" /></div>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                <?php
+                } ?>
+
                 <div class="section mcb-section   " style="padding-top:50px; padding-bottom:10px; background-color:#fecd36">
                     <div class="section_wrapper mcb-section-inner">
                         <div class="wrap mcb-wrap three-fifth  valign-top clearfix" style="background-color:#fecd36">
                             <div class="mcb-wrap-inner">
-                                <div class="column mcb-column one column_column  column-margin-">
-                                    <div class="column_attr clearfix align_center" style>
-                                        <div class="kf_convocation_wrap">
-                                            <h4><span>WHY STUDY IN ABROAD</span></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="column mcb-column one-second column_column  column-margin-">
-                                    <div class="column_attr clearfix" style>
-                                        <div class="kf_convocation_wrap">
-                                            <div class="kf_convocation_des">
-                                                <ul class="itbrood">
-                                                    <li style="list-style: none;"><i class="fa fa-check-square-o"></i> LOW TUTION FEES</li>
-                                                    <li style="list-style: none;"><i class="fa fa-check-square-o"></i> NO DONATION , PAY ONLY FEES</li>
-                                                    <li style="list-style: none;"><i class="fa fa-check-square-o"></i> INDIAN FOOD FACILITIES.</li>
-                                                    <li style="list-style: none;"><i class="fa fa-check-square-o"></i> MERIT BASIS SCHOLARSHIPS</li>
-                                                    <li style="list-style: none;"><i class="fa fa-check-square-o"></i> SAFE AND FRIENDLY ENVIRONMENT</li>
-                                                    <li style="list-style: none;"><i class="fa fa-check-square-o"></i> COMFORTABLE WEATHER</li>
-                                                </ul>
+                                <?php 
+                                if(!empty($STUDY_IN_ABROAD['title'])){ ?>
+
+                                    <div class="column mcb-column one column_column  column-margin-">
+                                        <div class="column_attr clearfix align_center" style>
+                                            <div class="kf_convocation_wrap">
+                                                <h4>
+                                                    <span>
+                                                        <?php 
+                                                        if(!empty($STUDY_IN_ABROAD['title'])){
+                                                            echo $STUDY_IN_ABROAD['title'];
+                                                        } ?>
+                                                    </span>
+                                                </h4>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="column mcb-column one-second column_column  column-margin-">
-                                    <div class="column_attr clearfix" style>
-                                        <div class="kf_convocation_wrap">
-                                            <div class="kf_convocation_des">
-                                                <ul class="itbrood">
-                                                    <li style="list-style: none;"><i class="fa fa-check-square-o"></i> COURSE IN ENGLISH MEDIUM</li>
-                                                    <li style="list-style: none;"><i class="fa fa-check-square-o"></i> INTERNATIONAL JOB OPPORTUNITIES</li>
-                                                    <li style="list-style: none;"><i class="fa fa-check-square-o"></i> MCI AND WHO APPROVED.</li>
-                                                    <li style="list-style: none;"><i class="fa fa-check-square-o"></i> HASSLE FREE PROCESS.</li>
-                                                    <li style="list-style: none;"><i class="fa fa-check-square-o"></i> IMMENSE CAREER OPPORTUNITIES.</li>
-                                                    <li style="list-style: none;"><i class="fa fa-check-square-o"></i> CUTTING-EDGE INFRASTRUCTURE AND MORE</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                    
+                                <?php
+                                } ?>
+
+                                <?php 
+                                if(!empty($STUDY_IN_ABROAD['content'])){
+                                    echo $STUDY_IN_ABROAD['content'];
+                                } ?>
                             </div>
                         </div>
                         <div class="wrap mcb-wrap two-fifth  valign-top clearfix" style>
