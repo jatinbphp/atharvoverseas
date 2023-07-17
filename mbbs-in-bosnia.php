@@ -1,1 +1,3 @@
-mbbs-in-bosnia.php
+<?php 
+include 'includes/header.php'; ?>
+<?php include 'includes/footer.php' ?>
