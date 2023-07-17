@@ -1,6 +1,6 @@
 <?php
 include 'includes/header.php';
-include "admin/postRequest/dbConnection.php";
+
 $row = [];   
 $sql = "SELECT * FROM section WHERE page_name = 'about-us'";
 $result = mysqli_query($conn, $sql);

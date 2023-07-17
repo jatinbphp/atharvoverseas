@@ -1,6 +1,5 @@
 <?php 
 include 'includes/header.php';
-include "postRequest/dbConnection.php";
 
 $EDUCATION_CONSULTANCY = [];
 $sql1 = "SELECT * FROM section WHERE id= 8";

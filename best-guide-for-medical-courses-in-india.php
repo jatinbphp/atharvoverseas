@@ -1,6 +1,5 @@
 <?php 
 include 'includes/header.php';
-include "postRequest/dbConnection.php";
 
 $MBBS_INDIA_DATA = [];
 $sqlIndia = "SELECT * FROM section WHERE page_name = 'india' ORDER BY `section`.`id` ASC";
