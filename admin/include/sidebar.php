@@ -1,12 +1,12 @@
-<aside class="main-sidebar sidebar-dark-primary elevation-4" style="position: fixed!important;">
+<aside class="main-sidebar sidebar-dark-primary elevation-4" style="position: fixed!important; bottom: 0;">
     <a href="index3.html" class="brand-link">
         <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
         <span class="brand-text font-weight-light">AdminLTE 3</span>
     </a>
 
     <div class="sidebar">
-        <nav class="mt-2">
-            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+        <nav class="mt-2" style="position: relative; height: 100%">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false" style="overflow-y: auto; height: 100%; flex-wrap: unset;">
                 <li class="nav-item has-treeview" style="border-bottom: 1px solid #4f5962; margin-bottom: 4.5%;">
                     <a href="#" class="nav-link">
                         <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image" style="width: 2.1rem; margin-right: 1.5%;">
@@ -180,23 +180,17 @@
                         <li class="nav-item">
                             <a href="section.php?id=16&section=MBBS Updates" class="nav-link">
                                 <i class="nav-icon fa fa-circle"></i>
-                                <p>BHMS</p>
+                                <p>Universities For BHMS</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="section.php?id=17&section=MBBS Updates" class="nav-link">
                                 <i class="nav-icon fa fa-circle"></i>
-                                <p>Universities For BHMS</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="section.php?id=18&section=MBBS Updates" class="nav-link">
-                                <i class="nav-icon fa fa-circle"></i>
                                 <p>BDS</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="section.php?id=19&section=MBBS Updates" class="nav-link">
+                            <a href="section.php?id=18&section=MBBS Updates" class="nav-link">
                                 <i class="nav-icon fa fa-circle"></i>
                                 <p>Universities For BDS</p>
                             </a>
@@ -207,16 +201,10 @@
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-book-medical"></i>
-                        <p> MBBS <i class="right fas fa-angle-left"></i>
+                        <p> MBBS Updates<i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
-                        <li class="nav-item">
-                            <a href="section.php?id=8&section=MBBS Updates" class="nav-link">
-                                <i class="nav-icon fa fa-circle"></i>
-                                <p>MBBS Abrod</p>
-                            </a>
-                        </li>
                         <li class="nav-item">
                             <a href="section.php?id=8&section=MBBS Updates" class="nav-link">
                                 <i class="nav-icon fa fa-circle"></i>
@@ -224,6 +212,13 @@
                             </a>
                         </li>
                     </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="country.php" class="nav-link">
+                        <i class="nav-icon fa fa-globe"></i>
+                        <p>Countries</p>
+                    </a>
                 </li>
             </ul>
         </nav>

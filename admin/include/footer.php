@@ -56,6 +56,22 @@
             }
         });
 
+        $("textarea[class=summernote]").summernote({
+            height: 250,
+            toolbar: [
+                ['style', ['bold', 'italic', 'underline', 'clear']],
+                ['font', ['strikethrough', 'superscript', 'subscript']],
+                ['fontsize', ['fontsize', 'height']],
+                ['color', ['color']],
+                ['para', ['ul', 'ol', 'paragraph']],
+                ['insert', ['table','picture','link','map','minidiag']],
+                ['misc', ['fullscreen', 'codeview']],
+            ],
+            onImageUpload: function(files, editor, welEditable) {
+                upload_image(files[0], editor, welEditable);
+            }
+        });
+
         function upload_image(file, editor, welEditable) {
             data = new FormData();
             data.append("file", file);
@@ -72,7 +88,7 @@
                 }
             });
         }
-    })
+    });
 
     $(document).ready( function() {
         <?php if(isset($_SESSION['error']) && !empty($_SESSION['error'])){ ?>

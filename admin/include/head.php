@@ -23,4 +23,15 @@
     <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
     <!-- summernote -->
     <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
+    <style>
+        .layout-navbar-fixed .main-sidebar .nav-sidebar::-webkit-scrollbar {
+            width: 8px;
+        }
+        .layout-navbar-fixed .main-sidebar .nav-sidebar::-webkit-scrollbar-thumb {
+            background: rgba(0,0,0,0.1);
+        }
+        .layout-navbar-fixed .main-sidebar .nav-sidebar::-webkit-scrollbar-track {
+            background: rgba(0,0,0,0.0);
+        }
+    </style>
 </head>
