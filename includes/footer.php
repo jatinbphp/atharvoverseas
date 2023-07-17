@@ -93,7 +93,8 @@
             </footer>
         </div>
         <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet" property="stylesheet" type="text/css" media="all">
-        <script data-cfasync="false" src="assets/js/email-decode.min.js"></script><script type="text/javascript">
+        <script data-cfasync="false" src="assets/js/email-decode.min.js"></script>
+        <script type="text/javascript">
             if(typeof revslider_showDoubleJqueryError === "undefined") {
               function revslider_showDoubleJqueryError(sliderID) {
                 var err = "<div class='rs_error_message_box'>";
@@ -207,9 +208,7 @@
         <script type="text/javascript"> var npf_d='https://atharvoverseas.in5.nopaperforms.com'; var npf_c='5175'; var npf_m='1'; var s=document.createElement("script"); s.type="text/javascript"; s.async=true; s.src="https://track.nopaperforms.com/js/track.js"; document.body.appendChild(s); </script>
         <script type="text/javascript"> var s=document.createElement("script"); s.type="text/javascript"; s.async=true; s.src="https://widgets.in5.nopaperforms.com/emwgts.js"; document.body.appendChild(s); </script>
 
-        <!-- <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-
-        <script data-cfasync="false" src="assets/js/form-submit.js"></script> -->
+        <script data-cfasync="false" src="assets/js/form-submit.js"></script>
 
     </body>
 </html>
