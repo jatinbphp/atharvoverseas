@@ -17,8 +17,9 @@
                 </rs-slide>
             </rs-slides>
             <rs-progress class="rs-bottom" style="visibility: hidden !important;"></rs-progress>
-        </rs-module>
-        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+        </rs-module>        
+        <script data-cfasync="false" src="assets/js/email-decode.min.js"></script>
+        <script type="text/javascript">
             setREVStartSize({c: 'rev_slider_3_1',rl:[1240,1024,778,480],el:[726],gw:[1990],gh:[726],layout:'fullwidth',mh:"0"});
             var revapi3,
                 tpj;

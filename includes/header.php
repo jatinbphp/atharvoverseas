@@ -27,7 +27,7 @@
             img.wp-smiley,img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-.1em!important;background:none!important;padding:0!important}
         </style>
         <link rel="stylesheet" id="wp-block-library-css" href="assets/css/style.min.css" type="text/css" media="all" />
-        <link rel="stylesheet" id="global-styles-inline-css" href="assets/css/global-styles-inline-css" type="text/css" media="all" />
+        <link rel="stylesheet" id="global-styles-inline-css" href="assets/css/global-styles-inline-css.css" type="text/css" media="all" />
         <link rel="stylesheet" id="contact-form-7-css" href="assets/css/styles.css" type="text/css" media="all" />
         <link rel="stylesheet" id="rs-plugin-settings-css" href="assets/css/rs6.css" type="text/css" media="all" />
         <style id="rs-plugin-settings-inline-css" type="text/css">
