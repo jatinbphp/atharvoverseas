@@ -93,7 +93,8 @@
             </footer>
         </div>
         <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet" property="stylesheet" type="text/css" media="all">
-        <script data-cfasync="false" src="assets/js/email-decode.min.js"></script><script type="text/javascript">
+        <script data-cfasync="false" src="assets/js/email-decode.min.js"></script>
+        <script type="text/javascript">
             if(typeof revslider_showDoubleJqueryError === "undefined") {
               function revslider_showDoubleJqueryError(sliderID) {
                 var err = "<div class='rs_error_message_box'>";
@@ -207,113 +208,7 @@
         <script type="text/javascript"> var npf_d='https://atharvoverseas.in5.nopaperforms.com'; var npf_c='5175'; var npf_m='1'; var s=document.createElement("script"); s.type="text/javascript"; s.async=true; s.src="https://track.nopaperforms.com/js/track.js"; document.body.appendChild(s); </script>
         <script type="text/javascript"> var s=document.createElement("script"); s.type="text/javascript"; s.async=true; s.src="https://widgets.in5.nopaperforms.com/emwgts.js"; document.body.appendChild(s); </script>
 
-        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script data-cfasync="false" src="assets/js/form-submit.js"></script>
 
-        <script type="text/javascript">
-
-        $(document).ready(function() {
-            $(".wpcf7-submitContact").click(function(e) {
-
-                $('.wpcf7-form').removeClass('init');
-                $('.wpcf7-form').addClass('submitting');
-                $('.wpcf7-spinner').css("visibility", "visible");
-
-                var ajaxUrl = "postRequest/saveContactUs.php";
-
-                var name = $("#your-name-contact").val();
-                var email = $("#your-email-contact").val();
-                var subject = $("#your-subject-contact").val();
-                var message = $("#your-message-contact").val();
-
-                var returnVar = 0;
-                if(name==''){
-                    var returnVar = 1;
-                    $("#your-name-contact").after('<span class="wpcf7-not-valid-tip your-name-contact" aria-hidden="true "></span>');
-                } else{
-                    $(".your-name-contact").remove();
-                }
-
-                if(email==''){
-                    var returnVar = 1;
-                    $("#your-email-contact").after('<span class="wpcf7-not-valid-tip your-email-contact" aria-hidden="true"></span>');
-                } else{
-
-                    var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;    
-                    if(!regex.test(email)){   
-                        var returnVar = 1; 
-                        $("#your-email-contact").after('<span class="wpcf7-not-valid-tip your-email-contact" aria-hidden="true"></span>');
-                    } else{
-                        $(".your-email-contact").remove();    
-                    }
-                }
-
-                if(subject==''){
-                    var returnVar = 1;
-                    $("#your-subject-contact").after('<span class="wpcf7-not-valid-tip your-subject-contact" aria-hidden="true"></span>');   
-                } else{
-                    $(".your-subject-contact").remove();
-                }
-
-                if(message==''){
-                    var returnVar = 1;
-                    $("#your-message-contact").after('<span class="wpcf7-not-valid-tip your-message-contact" aria-hidden="true"></span>'); 
-                } else{
-                    $(".your-message-contact").remove();
-                }
-
-
-                if(returnVar==0){
-
-                    $.ajax({  
-                        url: ajaxUrl,  
-                        method:"POST",  
-                        data:{
-                            "name" : name,
-                            "email" : email,
-                            "subject" : subject,
-                            "message" : message,
-                        },  
-                        success:function(data) {  
-                            if(data==1){
-
-                                $("#your-name-contact").val('');
-                                $("#your-email-contact").val('');
-                                $("#your-subject-contact").val('');
-                                $("#your-message-contact").val('');
-
-                                $('.wpcf7-spinner').css("visibility", "hidden");
-                                $('.wpcf7-form').removeClass('submitting');
-                                $('.wpcf7-form').removeClass('invalid');
-                                $('.wpcf7-form').addClass('sent');
-                                $('.wpcf7-response-output').text('Your message was sent successfully. Thanks.');
-                            } else {
-                                $('.wpcf7-spinner').css("visibility", "hidden");
-                                $('.wpcf7-form').removeClass('submitting');
-                                $('.wpcf7-form').addClass('invalid');
-                                $('.wpcf7-response-output').text('Validation errors occurred. Please confirm the fields and submit it again.');
-                            }
-
-                            setTimeout(function() {
-                                $('.wpcf7-form').removeClass('submitting');
-                                $('.wpcf7-form').removeClass('invalid');
-                                $('.wpcf7-form').removeClass('sent');
-                                $('.wpcf7-response-output').text('');
-                                $('.wpcf7-form').addClass('init');
-                            }, 3000);
-                        }  
-                    });
-
-                    
-                } else {
-                    $('.wpcf7-spinner').css("visibility", "hidden");
-                    $('.wpcf7-form').removeClass('submitting');
-                    $('.wpcf7-form').addClass('invalid');
-                    $('.wpcf7-response-output').text('Validation errors occurred. Please confirm the fields and submit it again.');
-                    
-                }
-
-            });
-        });
-        </script>
     </body>
 </html>

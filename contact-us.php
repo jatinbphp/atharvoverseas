@@ -73,12 +73,12 @@
                                                 <p role="status" aria-live="polite" aria-atomic="true"></p>
                                                 <ul></ul>
                                             </div>
-                                            <form action="contact-us.php" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+                                            <form action="javascript:void(0)" method="post" class="wpcf7-form init wpcf7-form-contact" novalidate="novalidate" data-status="init">
                                              
                                                 <div class="column one-third"><label>Name:</label><span class="wpcf7-form-control-wrap" data-name="your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" id="your-name-contact" required></span></div>
 
                                                 <div class="column one-third"><label>E-mail address:</label><span class="wpcf7-form-control-wrap" data-name="your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" id="your-email-contact" required></span></div>
-                                                
+
 
                                                 <div class="column one-third"><label>Subject:</label><span class="wpcf7-form-control-wrap" data-name="your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" required id="your-subject-contact"></span></div>
 
