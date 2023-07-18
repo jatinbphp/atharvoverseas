@@ -79,7 +79,7 @@ if(isset($_GET['cId']) && !empty($_GET['cId'])){
                                         <div class="form-group">
                                             <label class="col-md-12 control-label"><?php echo ucwords(str_replace('_',' ', $label))?> <small class="text-red"></small></label>
                                             <div class="col-md-12">
-                                                <input type="text" name="<?php echo $label?>" class="form-control" value="<?php echo $value; ?>" <?php echo $readOnly;?> >
+                                                <input type="text" name="<?php echo $label?>" class="form-control" value="<?php echo $value; ?>">
                                             </div>
                                         </div>
                                     </div>

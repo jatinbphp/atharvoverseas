@@ -3,17 +3,17 @@ include "dbConnection.php";
 if ($_POST) {
     $country = $_POST['cId'];
     $image = $_POST['image'];
-    $content = mysqli_real_escape_string($conn,$_POST['content']) ;
+    $content = htmlspecialchars_decode(mysqli_real_escape_string($conn,$_POST['content'])) ;
     $about_title = $_POST['about_title'];
-    $about_content = mysqli_real_escape_string($conn,$_POST['about_content']);
+    $about_content = htmlspecialchars_decode(mysqli_real_escape_string($conn,$_POST['about_content']));
     $study_title = $_POST['study_title'];
-    $study_content = mysqli_real_escape_string($conn,$_POST['study_content']);
+    $study_content = htmlspecialchars_decode(mysqli_real_escape_string($conn,$_POST['study_content']));
     $benefit_mbbs_title = $_POST['benefit_mbbs_title'];
-    $benefit_mbbs_content = mysqli_real_escape_string($conn,$_POST['benefit_mbbs_content']);
+    $benefit_mbbs_content = htmlspecialchars_decode(mysqli_real_escape_string($conn,$_POST['benefit_mbbs_content']));
     $admission_title = $_POST['admission_title'];
-    $admission_content = mysqli_real_escape_string($conn,$_POST['admission_content']);
+    $admission_content = htmlspecialchars_decode(mysqli_real_escape_string($conn,$_POST['admission_content']));
     $fee_title = $_POST['fee_title'];
-    $fee_content = mysqli_real_escape_string($conn,$_POST['fee_content']);
+    $fee_content = htmlspecialchars_decode(mysqli_real_escape_string($conn,$_POST['fee_content']));
 
     $highLights = [];
     $highLights['country_name'] = $_POST['country_name'];
