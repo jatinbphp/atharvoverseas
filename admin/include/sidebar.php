@@ -232,6 +232,42 @@
                         <p>Countries</p>
                     </a>
                 </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-cog"></i>
+                        <p> Services <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="section.php?id=22&section=Service Section 1" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>Section 1</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="section.php?id=23&section=Service Section 2" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>Section 2</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="office.php" class="nav-link">
+                        <i class="nav-icon fa fa-building"></i>
+                        <p>Corporate Offices</p>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="contactUs.php" class="nav-link">
+                        <i class="nav-icon fa fa-phone-volume"></i>
+                        <p>Contact Us</p>
+                    </a>
+                </li>
             </ul>
         </nav>
     </div>

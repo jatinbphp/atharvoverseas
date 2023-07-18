@@ -47,7 +47,7 @@ $result = mysqli_query($conn, $sql);
                                         <td>
                                             <div class="btn-group btn-group-sm">
                                                  <span data-toggle="modal" data-target="#countryModal_<?php echo $row['id']; ?>">
-                                                    <button class="btn btn-sm btn-primary mr-2" type="button"><i class="fa fa-edit"></i></button>
+                                                    <button class="btn btn-sm btn-primary mr-2" type="button" data-toggle="tooltip" title="Edit Country Detail" data-trigger="hover"><i class="fa fa-edit"></i></button>
                                                 </span>
                                                 <a href="mbbsDetails.php?cId=<?php echo $row['id']?>">
                                                     <span data-toggle="tooltip" title="Add MBBS Detail" data-trigger="hover">
@@ -55,7 +55,7 @@ $result = mysqli_query($conn, $sql);
                                                     </span>
                                                 </a>
                                                 <a href="universityList.php?cId=<?php echo $row['id']?>">
-                                                    <span data-toggle="tooltip" title="Add MBBS Detail" data-trigger="hover">
+                                                    <span data-toggle="tooltip" title="University List" data-trigger="hover">
                                                         <button class="btn btn-sm btn-warning" type="button"><i class="fa fa-hospital"></i></button>
                                                     </span>
                                                 </a>
@@ -78,7 +78,7 @@ $result = mysqli_query($conn, $sql);
                                                         <div class="form-group">
                                                             <label class="col-md-12 control-label" for="image">Budget <small class="text-red">*</small></label>
                                                             <div class="col-md-12">
-                                                                <input type="text" name="budget" class="form-control" id="budget">
+                                                                <input type="text" name="budget" class="form-control" id="budget" value="<?php echo $row['budget']; ?>">
                                                             </div>
                                                         </div>
                                                         <div class="form-group">

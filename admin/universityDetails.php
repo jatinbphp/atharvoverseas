@@ -6,11 +6,13 @@ include "include/navbar.php";
 include "include/sidebar.php";
 include "dbConnection.php";
 $row = [];
+$required = 'required';
 if(isset($_GET['uId']) && !empty($_GET['uId'])){
     $sql = "SELECT * FROM country_university WHERE id=".$_GET['uId'];
     $result = mysqli_query($conn, $sql);
     if (mysqli_num_rows($result) === 1) {
         $row = mysqli_fetch_assoc($result);
+        $required = !empty($row) && !empty($row['profile_image']) ? '' : 'required';
     }
 }
 
@@ -38,9 +40,9 @@ $fieldArr = ['overview','admission_procedure','highlight_of_the_medical_collage'
                         <input type="hidden" name="uId" value="<?php echo isset($_GET['uId']) && !empty($_GET['uId']) ? $_GET['uId'] : 0; ?>">
                         <div class="card-body">
                             <div class="form-group">
-                                <label class="col-md-12 control-label" for="profile_image">Profile Image <small class="text-red"></small></label>
+                                <label class="col-md-12 control-label" for="profile_image">Profile Image <small class="text-red">*</small></label>
                                 <div class="col-md-12">
-                                    <input type="file" name="profile_image" class="form-control" id="image">
+                                    <input type="file" name="profile_image" class="form-control" id="image" <?php echo $required; ?>>
                                     <?php
                                     if(!empty($row) && !empty($row['profile_image']) && file_exists('../uploads/'.$row['profile_image'])){
                                         echo '<img src="../uploads/'.$row['profile_image'].'" class="mt-2" style="height: 100px; width: 100px;">';
@@ -49,9 +51,9 @@ $fieldArr = ['overview','admission_procedure','highlight_of_the_medical_collage'
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="col-md-12 control-label" for="university_name">University Name <small class="text-red"></small></label>
+                                <label class="col-md-12 control-label" for="university_name">University Name <small class="text-red">*</small></label>
                                 <div class="col-md-12">
-                                    <input type="text" name="university_name" class="form-control" id="university_name" value="<?php echo $row['university_name']?>">
+                                    <input type="text" name="university_name" class="form-control" id="university_name" value="<?php echo $row['university_name']?>" required>
                                 </div>
                             </div>
                             <?php foreach ($fieldArr as $field){ ?>
