@@ -22,6 +22,12 @@ if ($_POST) {
         exit();
     }
 
+    $sql2 = "SELECT * FROM country WHERE id=".$_POST['cId'];
+    $result2 = mysqli_query($conn, $sql2);
+    if (mysqli_num_rows($result2) === 1) {
+        $row2 = mysqli_fetch_assoc($result2);
+    }
+
     $universityId = $_POST['uId'];
     $country = $_POST['cId'];
     $university_name = $_POST['university_name'];
@@ -33,6 +39,7 @@ if ($_POST) {
     $highlight_title = $_POST['highlight_of_the_medical_collage_title'];
     $highlight_content = mysqli_real_escape_string($conn,$_POST['highlight_of_the_medical_collage_content']);
     $gallery_title = $_POST['gallery_title'];
+    $slug = str_replace(' ','-',strtolower($university_name)).'-study-mbbs-in-'.strtolower($row2['name']).
 
     $sql = "SELECT * FROM country_university WHERE id=".$universityId;
     $result = mysqli_query($conn, $sql);
@@ -87,8 +94,8 @@ if ($_POST) {
     }
 
     if($isNew == 1){
-        $sql = "INSERT INTO country_university (country,university_name,profile_image,overview_title,overview_content,admission_procedure_title,admission_procedure_content,highlight_of_the_medical_collage_title,highlight_of_the_medical_collage_content,gallery_title,photo_gallery) 
-                VALUES ('$country','$university_name','$profile_image_name','$overview_title','$overview_content','$admission_title','$admission_content','$highlight_title','$highlight_content','$gallery_title','$img_name')";
+        $sql = "INSERT INTO country_university (country,sluguniversity_name,profile_image,overview_title,overview_content,admission_procedure_title,admission_procedure_content,highlight_of_the_medical_collage_title,highlight_of_the_medical_collage_content,gallery_title,photo_gallery) 
+                VALUES ('$country','$slug',''$university_name','$profile_image_name','$overview_title','$overview_content','$admission_title','$admission_content','$highlight_title','$highlight_content','$gallery_title','$img_name')";
         $result = mysqli_query($conn, $sql);
         if ($result == 1) {
             $_SESSION['error'] = 'Country university is inserted successfully';
@@ -97,6 +104,7 @@ if ($_POST) {
         }
     }else{
         $sql = "UPDATE country_university SET 
+            slug = '$slug',
             university_name = '$university_name',
             profile_image = '$profile_image_name',
             overview_title = '$overview_title',
