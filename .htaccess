@@ -1,2 +1,27 @@
 RewriteEngine on
-RewriteRule ^/?Some-text-goes-here/([0-9]+)$ /picture.php?id=$1
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+
+RewriteRule ^mbbs-in-belarus$ mbbs-in-all.php?countryId=1 [L]
+
+RewriteRule ^mbbs-in-kyrgyzstan$ mbbs-in-all.php?countryId=2 [L]
+
+RewriteRule ^mbbs-in-kazakhstan$ mbbs-in-all.php?countryId=3 [L]
+
+RewriteRule ^mbbs-in-uzbekistan$ mbbs-in-all.php?countryId=4 [L]
+
+RewriteRule ^mbbs-in-bosnia$ mbbs-in-all.php?countryId=5 [L]
+
+RewriteRule ^mbbs-in-armenia$ mbbs-in-all.php?countryId=6 [L]
+
+RewriteRule ^mbbs-in-philippines$ mbbs-in-all.php?countryId=7 [L]
+
+RewriteRule ^mbbs-in-russia$ mbbs-in-all.php?countryId=8 [L]
+
+RewriteRule ^mbbs-in-georgia$ mbbs-in-all.php?countryId=9 [L]
+
+RewriteRule ^mbbs-in-ukraine$ mbbs-in-all.php?countryId=10 [L]
+
+RewriteRule ^mbbs-in-china$ mbbs-in-all.php?countryId=11 [L]
+
+RewriteRule ^mbbs-in-poland$ mbbs-in-all.php?countryId=12 [L]
