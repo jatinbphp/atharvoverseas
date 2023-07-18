@@ -242,12 +242,6 @@ if(!empty($resultUniversity)){
 		                                            </div>
 		                                        </div>
 		                                    </div>
-		                                    <div class="date_label">October 3, 2021</div>
-		                                    <div class="desc">
-		                                        <h4><a href="<?php echo $value['slug']; ?>"><?php echo $value['university_name']; ?> | Study MBBS in <?php echo $universitydata['name']; ?></a></h4>
-		                                        <hr class="hr_color" />
-		                                        <a href="<?php echo $value['slug']; ?>" class="button button_left button_js"><span class="button_icon"><i class="icon-layout"></i></span><span class="button_label">Read more</span></a>
-		                                    </div>
 		                                </div>
 	                                <?php 
 	                            	} ?>

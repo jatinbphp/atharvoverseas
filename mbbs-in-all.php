@@ -356,12 +356,6 @@ if (mysqli_num_rows($result) === 1) {
                                                                     </a>
                                                                 </div>
                                                             </div>
-                                                            <div class="date_label">October 4, 2021</div>
-                                                            <div class="desc">
-                                                                <h4><a href="https://atharvoverseas.com/belarusian-state-medical-university-study-mbbs-in-belarus/">Belarusian state medical University | Study MBBS in Belarus</a></h4>
-                                                                <hr class="hr_color" />
-                                                                <a href="https://atharvoverseas.com/belarusian-state-medical-university-study-mbbs-in-belarus/" class="button button_left button_js"><span class="button_icon"><i class="icon-layout"></i></span><span class="button_label">Read more</span></a>
-                                                            </div>
                                                         </div>
                                                     </li>
                                                 <?php
