@@ -12,7 +12,10 @@ if ($_POST) {
     $content = validate($_POST['content']);
 
     if(!empty($_POST['sId']) && $_POST['sId'] > 0 && !empty($content)){
-        $sql = "UPDATE section SET title = '$title', content = '$content' WHERE id =".$_POST['sId'];
+        //$htmlContent = htmlspecialchars_decode($content);
+        $htmlContent = mysqli_real_escape_string($conn,$content);
+        $sql = "UPDATE section SET title = '$title', content = '$htmlContent' WHERE id =".$_POST['sId'];
+
         if ($conn->query($sql) === TRUE) {
             $_SESSION['error'] = 'Section is updated successfully';
         } else {

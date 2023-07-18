@@ -186,11 +186,23 @@
                         <li class="nav-item">
                             <a href="section.php?id=17&section=MBBS Updates" class="nav-link">
                                 <i class="nav-icon fa fa-circle"></i>
-                                <p>BDS</p>
+                                <p>BAMS</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="section.php?id=18&section=MBBS Updates" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>Universities For BAMS</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="section.php?id=19&section=MBBS Updates" class="nav-link">
+                                <i class="nav-icon fa fa-circle"></i>
+                                <p>BDS</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="section.php?id=20&section=MBBS Updates" class="nav-link">
                                 <i class="nav-icon fa fa-circle"></i>
                                 <p>Universities For BDS</p>
                             </a>
@@ -206,7 +218,7 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="section.php?id=8&section=MBBS Updates" class="nav-link">
+                            <a href="section.php?id=21&section=MBBS Updates" class="nav-link">
                                 <i class="nav-icon fa fa-circle"></i>
                                 <p>MBBS Updates</p>
                             </a>

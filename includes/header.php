@@ -31,7 +31,9 @@
         <link rel="stylesheet" id="contact-form-7-css" href="assets/css/styles.css" type="text/css" media="all" />
         <link rel="stylesheet" id="rs-plugin-settings-css" href="assets/css/rs6.css" type="text/css" media="all" />
         <style id="rs-plugin-settings-inline-css" type="text/css">
-            #rs-demo-id {}
+            ul.nav.nav-treeview {
+                padding-left: 15px;
+            }
         </style>
         <link rel="stylesheet" id="wpos-font-awesome-css" href="assets/css/font-awesome.min.css" type="text/css" media="all" />
         <link rel="stylesheet" id="wpos-magnific-style-css" href="assets/css/magnific-popup.css" type="text/css" media="all" />

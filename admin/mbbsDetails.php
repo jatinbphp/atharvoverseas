@@ -21,6 +21,8 @@ if(isset($_GET['cId']) && !empty($_GET['cId'])){
 
     $highlights = ['country_name','country_code','country_rank','currency','capital','weather','language','accrediations','course_duration','teaching_medium',
         'mess_facility','university_type','hostel_fees_range','tution_fees_range'];
+
+
     $fieldArr = ['about','study','benefit_mbbs','admission','fee'];
 }
 ?>
@@ -58,15 +60,26 @@ if(isset($_GET['cId']) && !empty($_GET['cId'])){
                             <div class="row border">
                                 <div class="col-md-12 text-center my-2 border-bottom"><h4 class="font-weight-bold">MBBS in <?php echo $row2['name']?>: HighLights</h4></div>
                                 <?php
-                                    foreach ($highlights as $key => $list){
-                                        $value = $key == 0 ?  $row2['name'] : ($key == 1 ? $row2['code'] : '');
+                                    $highlightJSON = !empty($row) && !empty($row['highlights']) ? json_decode($row['highlights']) : [];
+                                    $highlightData = !empty($highlightJSON) ? $highlightJSON : $highlights;
+
+                                    foreach ($highlightData as $key => $list){
+                                        $label = !empty($highlightJSON) ? $key : $list;
+                                        $value = !empty($highlightJSON) ? $list : '';
+
+                                        if(!empty($highlightJSON)){
+                                            $value = $list;
+                                        }else{
+                                            $value = $key == 0 ?  $row2['name'] : ($key == 1 ? $row2['code'] : '');
+                                        }
+
                                         $readOnly = in_array($key, [0,1]) ?  'readonly' : '';
                                 ?>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label class="col-md-12 control-label" for="<?php echo $list?>"><?php echo str_replace('_',' ', ucfirst($list))?> <small class="text-red"></small></label>
+                                            <label class="col-md-12 control-label"><?php echo ucwords(str_replace('_',' ', $label))?> <small class="text-red"></small></label>
                                             <div class="col-md-12">
-                                                <input type="text" name="<?php echo $list?>" class="form-control" id="<?php echo $list?>" value="<?php echo $value; ?>" <?php echo $readOnly;?> >
+                                                <input type="text" name="<?php echo $label?>" class="form-control" value="<?php echo $value; ?>" <?php echo $readOnly;?> >
                                             </div>
                                         </div>
                                     </div>
@@ -79,14 +92,14 @@ if(isset($_GET['cId']) && !empty($_GET['cId'])){
                                     <div class="form-group">
                                         <label class="col-md-12 control-label" for="<?php echo $field?>_title"><?php echo str_replace('_',' ', ucfirst($field))?> Title <small class="text-red"></small></label>
                                         <div class="col-md-12">
-                                            <input type="text" name="<?php echo $field?>_title" class="form-control" id="<?php echo $field?>_title" value="<?php echo !empty($row['about_title']) ? $row['about_title'] : ""; ?>">
+                                            <input type="text" name="<?php echo $field?>_title" class="form-control" id="<?php echo $field?>_title" value="<?php echo !empty($row[$field.'_title']) ? $row[$field.'_title'] : ""; ?>">
                                         </div>
                                     </div>
 
                                     <div class="form-group">
                                         <label class="col-md-12 control-label" for="<?php echo $field?>_content"><?php echo str_replace('_',' ', ucfirst($field))?> Content <small class="text-red"></small></label>
                                         <div class="col-md-12">
-                                            <textarea name="<?php echo $field?>_content" class="summernote"><?php echo !empty($row['about_content']) ? $row['about_content'] : ""; ?></textarea>
+                                            <textarea name="<?php echo $field?>_content" class="summernote"><?php echo !empty($row[$field.'_content']) ? $row[$field.'_content'] : ""; ?></textarea>
                                         </div>
                                     </div>
                             <?php }?>
