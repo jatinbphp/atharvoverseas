@@ -341,25 +341,18 @@ if (mysqli_num_rows($result) === 1) {
                                                         <div class="item_wrapper" style="text-align: center;">
                                                             <div class="image_frame scale-with-grid">
                                                                 <div class="image_wrapper">
-                                                                    <a href="<?php //echo $value['slug']; ?>">
+                                                                    <a href="<?php echo $value['slug']; ?>">
 
                                                                         <?php
-                                                                        $profile_imageVar = 0;
+                                                                        $profile_image = 'uploads/default.jpg';
                                                                         if(!empty($value['profile_image'])){
-                                                                            $profile_image = 'uploads/'.$value['profile_image'];
-                                                                            if (file_exists($profile_image)) {
-                                                                                $profile_imageVar = 1;
+                                                                            if (file_exists('uploads/'.$value['profile_image'])) {
+                                                                                $profile_image = 'uploads/'.$value['profile_image'];
                                                                             }
                                                                         } ?>
 
-                                                                        <?php
-                                                                        if($profile_imageVar==1){ ?>
-                                                                            <img width="278" height="181" src="<?php echo $profile_image; ?>" class="scale-with-grid wp-post-image" sizes="(max-width: 278px) 100vw, 278px" />
-                                                                        <?php 
-                                                                        } else { ?>
-                                                                            <img src="uploads/default.jpg?v=11" class="scale-with-grid wp-post-image" sizes="(max-width: 278px) 100vw, 278px" />
-                                                                        <?php
-                                                                        } ?>
+                                                                        <img width="278" height="181" src="<?php echo $profile_image; ?>" class="scale-with-grid wp-post-image" sizes="(max-width: 278px) 100vw, 278px" />
+
                                                                     </a>
                                                                 </div>
                                                             </div>
