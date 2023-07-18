@@ -114,5 +114,24 @@
             });
         }
     });
+
+    $('.delUniversityBtn').on('click', function(){
+        var bId = $(this).attr('data-id');
+        if(confirm('Are you sure to remove this record ?'))
+        {
+            $.ajax({
+                url: 'postRequest/saveCountryUniversity.php',
+                type: 'POST',
+                data: {type:'delete', id: bId},
+                error: function() {
+                    alert('Something is wrong');
+                },
+                success: function(data) {
+                    $("#universuty_"+bId).remove();
+                    alert("Record removed successfully");
+                }
+            });
+        }
+    });
 </script>
 <!-- /.jQuery -->

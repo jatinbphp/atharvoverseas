@@ -54,7 +54,7 @@ $result = mysqli_query($conn, $sql);
                                                         <button class="btn btn-sm btn-success mr-2" type="button"><i class="fa fa-file-medical-alt"></i></button>
                                                     </span>
                                                 </a>
-                                                <a href="universityDetails.php?cId=<?php echo $row['id']?>">
+                                                <a href="universityList.php?cId=<?php echo $row['id']?>">
                                                     <span data-toggle="tooltip" title="Add MBBS Detail" data-trigger="hover">
                                                         <button class="btn btn-sm btn-warning" type="button"><i class="fa fa-hospital"></i></button>
                                                     </span>
