@@ -1,7 +1,7 @@
 <?php
 include 'includes/header.php';
 
-$row = [];   
+$mbbsUpdates = [];   
 $sql = "SELECT * FROM section WHERE id = 21";
 $result = mysqli_query($conn, $sql);
 if (mysqli_num_rows($result) > 0) {

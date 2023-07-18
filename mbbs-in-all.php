@@ -341,7 +341,7 @@ if (mysqli_num_rows($result) === 1) {
                                                         <div class="item_wrapper" style="text-align: center;">
                                                             <div class="image_frame scale-with-grid">
                                                                 <div class="image_wrapper">
-                                                                    <a href="https://atharvoverseas.com/belarusian-state-medical-university-study-mbbs-in-belarus/">
+                                                                    <a href="<?php //echo $value['slug']; ?>">
 
                                                                         <?php
                                                                         $profile_imageVar = 0;

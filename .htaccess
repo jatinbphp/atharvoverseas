@@ -25,3 +25,8 @@ RewriteRule ^mbbs-in-ukraine$ mbbs-in-all.php?countryId=10 [L]
 RewriteRule ^mbbs-in-china$ mbbs-in-all.php?countryId=11 [L]
 
 RewriteRule ^mbbs-in-poland$ mbbs-in-all.php?countryId=12 [L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ study-in-mbbs.php?slug=$1 [QSA,L]
