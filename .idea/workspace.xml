@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2079cf1-a784-4707-a5e2-31886e10cb0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mbbs-in-all.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/mbbs-in-belarus/belarus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/mbbs-in-kazakhstan/kazakhstan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/mbbs-in-uzbekistan/uzbekistan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/top_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/top_menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mbbs-in-armenia.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mbbs-in-belarus.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mbbs-in-bosnia.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mbbs-in-china.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mbbs-in-georgia.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mbbs-in-kazakhstan.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mbbs-in-kyrgyzstan.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mbbs-in-philippines.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mbbs-in-russia.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mbbs-in-ukraine.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mbbs-in-uzbekistan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/postRequest/saveCountryUniversity.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/postRequest/saveCountryUniversity.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +33,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -64,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689651408245</updated>
-      <workItem from="1689651412256" duration="16168000" />
+      <workItem from="1689651412256" duration="16543000" />
     </task>
     <servers />
   </component>
