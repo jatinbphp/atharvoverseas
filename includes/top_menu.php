@@ -1,4 +1,4 @@
-<div id="Top_bar" class="loading">
+<div id="Top_bar">
     <div class="container">
         <div class="column one">
             <div class="top_bar_left clearfix">
