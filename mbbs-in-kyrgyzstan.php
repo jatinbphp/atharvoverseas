@@ -1,1 +1,0 @@
-mbbs-in-kyrgyzstan.php

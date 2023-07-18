@@ -1,5 +1,13 @@
 <?php 
-include 'includes/header.php'; ?>
+echo 'sdfsdfs'
+echo "<pre>";print_r($_GET);
+exit();
+
+include 'includes/header.php';
+
+
+
+ ?>
 <div id="Content">
     <div class="content_wrapper clearfix">
         <div class="sections_group">

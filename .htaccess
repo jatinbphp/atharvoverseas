@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule /mbbs-in-belarus /mbbs-in-all.php
