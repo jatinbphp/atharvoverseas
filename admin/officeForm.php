@@ -27,16 +27,16 @@ if(isset($_GET['id']) && !empty($_GET['id'])){
                         <input type="hidden" name="oId" value="<?php echo isset($_GET['id']) && !empty($_GET['id']) ? $_GET['id'] : 0; ?>">
                         <div class="card-body">
                             <div class="form-group">
-                                <label class="col-md-12 control-label" for="title">State Name <small class="text-red"></small></label>
+                                <label class="col-md-12 control-label" for="title">State Name <small class="text-red">*</small></label>
                                 <div class="col-md-12">
-                                    <input type="text" name="state_name" class="form-control" id="state_name" value="<?php echo !empty($row) ? $row['state_name'] : ''; ?>">
+                                    <input type="text" name="state_name" class="form-control" id="state_name" value="<?php echo !empty($row) ? $row['state_name'] : ''; ?>" required>
                                 </div>
                             </div>
 
                             <div class="form-group">
-                                <label class="col-md-12 control-label" for="title">Address <small class="text-red"></small></label>
+                                <label class="col-md-12 control-label" for="title">Address <small class="text-red">*</small></label>
                                 <div class="col-md-12">
-                                    <input type="text" name="address" class="form-control" id="address" value="<?php echo !empty($row) ? $row['address'] : ''; ?>">
+                                    <input type="text" name="address" class="form-control" id="address" value="<?php echo !empty($row) ? $row['address'] : ''; ?>" required>
                                 </div>
                             </div>
 

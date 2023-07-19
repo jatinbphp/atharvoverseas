@@ -23,7 +23,7 @@ if(isset($_GET['cId']) && !empty($_GET['cId'])){
         'mess_facility','university_type','hostel_fees_range','tution_fees_range'];
 
 
-    $fieldArr = ['about','study','benefit_mbbs','admission','fee'];
+    $fieldArr = ['about','study','benefit_mbbs','admission','fee','processing'];
 }
 ?>
 <body class="hold-transition sidebar-mini layout-navbar-fixed">
@@ -33,7 +33,7 @@ if(isset($_GET['cId']) && !empty($_GET['cId'])){
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="card-title">Edit Details</h3>
+                        <h3 class="card-title">Edit MBBS Details Of <?php echo $row2['name']; ?></h3>
                     </div>
                     <form action="postRequest/saveCountrySection.php" method="POST" enctype="multipart/form-data">
                         <input type="hidden" name="cId" value="<?php echo isset($_GET['cId']) && !empty($_GET['cId']) ? $_GET['cId'] : 0; ?>">
@@ -54,6 +54,13 @@ if(isset($_GET['cId']) && !empty($_GET['cId'])){
                                 <label class="col-md-12 control-label" for="content">Content <small class="text-red"></small></label>
                                 <div class="col-md-12">
                                     <textarea name="content" id="summernote"><?php echo !empty($row['content']) ? $row['content'] : ""; ?></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-12 control-label" for="content">Content 2 <small class="text-red"></small></label>
+                                <div class="col-md-12">
+                                    <textarea name="content2" class="summernote"><?php echo !empty($row['content2']) ? $row['content2'] : ""; ?></textarea>
                                 </div>
                             </div>
 
@@ -95,6 +102,17 @@ if(isset($_GET['cId']) && !empty($_GET['cId'])){
                                             <input type="text" name="<?php echo $field?>_title" class="form-control" id="<?php echo $field?>_title" value="<?php echo !empty($row[$field.'_title']) ? $row[$field.'_title'] : ""; ?>">
                                         </div>
                                     </div>
+
+                                    <?php
+                                        if($field == 'processing'){
+                                    ?>
+                                            <div class="form-group">
+                                                <label class="col-md-12 control-label" for="<?php echo $field?>_sub_title"><?php echo str_replace('_',' ', ucfirst($field))?> Sub Title <small class="text-red"></small></label>
+                                                <div class="col-md-12">
+                                                    <input type="text" name="<?php echo $field?>_sub_title" class="form-control" id="<?php echo $field?>_sub_title" value="<?php echo !empty($row[$field.'_sub_title']) ? $row[$field.'_sub_title'] : ""; ?>">
+                                                </div>
+                                            </div>
+                                    <?php }?>
 
                                     <div class="form-group">
                                         <label class="col-md-12 control-label" for="<?php echo $field?>_content"><?php echo str_replace('_',' ', ucfirst($field))?> Content <small class="text-red"></small></label>

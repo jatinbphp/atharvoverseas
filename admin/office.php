@@ -37,19 +37,19 @@ $result = mysqli_query($conn, $sql);
                             if (mysqli_num_rows($result) > 0) {
                                 while ($row = mysqli_fetch_assoc($result)){
                                     ?>
-                                    <tr id="banner_<?php echo $row['id']; ?>" >
+                                    <tr id="office_<?php echo $row['id']; ?>" >
                                         <td><?php echo $i; ?></td>
                                         <td><?php echo $row['state_name']; ?></td>
                                         <td><?php echo $row['address']; ?></td>
                                         <td>
                                             <div class="btn-group btn-group-sm">
                                                 <a href="officeForm.php?id=<?php echo $row['id']?>">
-                                                    <span data-toggle="tooltip" title="Edit Banner" data-trigger="hover">
+                                                    <span data-toggle="tooltip" title="Edit Office" data-trigger="hover">
                                                         <button class="btn btn-sm btn-primary mr-2" type="button"><i class="fa fa-edit"></i></button>
                                                     </span>
                                                 </a>
-                                                <span data-toggle="tooltip" title="Delete Banner" data-trigger="hover">
-                                                    <button class="btn btn-sm btn-danger delBtn" data-id="<?php echo $row['id']?>" type="button"><i class="fa fa-trash"></i></button>
+                                                <span data-toggle="tooltip" title="Delete Office" data-trigger="hover">
+                                                    <button class="btn btn-sm btn-danger delOfficeBtn" data-id="<?php echo $row['id']?>" type="button"><i class="fa fa-trash"></i></button>
                                                 </span>
                                             </div>
                                         </td>

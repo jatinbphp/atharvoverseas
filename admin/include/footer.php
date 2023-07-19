@@ -133,5 +133,24 @@
             });
         }
     });
+
+    $('.delOfficeBtn').on('click', function(){
+        var bId = $(this).attr('data-id');
+        if(confirm('Are you sure to remove this record ?'))
+        {
+            $.ajax({
+                url: 'postRequest/saveOffice.php',
+                type: 'POST',
+                data: {type:'delete', id: bId},
+                error: function() {
+                    alert('Something is wrong');
+                },
+                success: function(data) {
+                    $("#office_"+bId).remove();
+                    alert("Record removed successfully");
+                }
+            });
+        }
+    });
 </script>
 <!-- /.jQuery -->

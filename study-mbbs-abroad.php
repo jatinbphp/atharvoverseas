@@ -19,7 +19,7 @@ $ACCORDING_TO_COUNTRY = [];
 $sqlCountry = "SELECT * FROM country";
 $resultCountry = mysqli_query($conn,$sqlCountry); ?>
 
-<div id="Content">
+<div id="Content" style="padding: 0;">
     <div class="content_wrapper clearfix">
         <div class="sections_group">
             <div class="entry-content" itemprop="mainContentOfPage">
@@ -98,13 +98,13 @@ $resultCountry = mysqli_query($conn,$sqlCountry); ?>
                                     
                                             <div class="column mcb-column one-second column_how_it_works ">
                                                 <div class="how_it_works no_border">
-                                                    <a href="mbbs-in-<?php echo strtolower($ACCORDING_TO_COUNTRY['name']); ?>.php">
+                                                    <a href="mbbs-in-<?php echo strtolower($ACCORDING_TO_COUNTRY['name']); ?>">
                                                         <div class="image">
                                                             <img src="assets/flags/<?php echo $ACCORDING_TO_COUNTRY['image']; ?>" class="scale-with-grid" alt="uzbekistan" width="256" height="256">
                                                         </div>
                                                     </a>
                                                     <h4>
-                                                        <?php echo isset($ACCORDING_TO_COUNTRY['name']) ? $EDUCATION_CONSULTANCY['name'] : "" ?>
+                                                        <?php echo isset($ACCORDING_TO_COUNTRY['name']) ? $ACCORDING_TO_COUNTRY['name'] : "" ?>
                                                     </h4>
                                                     <div class="desc"></div>
                                                 </div>
@@ -146,7 +146,7 @@ $resultCountry = mysqli_query($conn,$sqlCountry); ?>
                                                         <div class="price"><sup class="currency"></sup><span><?php echo $value['budget']; ?></span><sup class="period"></sup></div>
                                                         <hr class="hr_color">
                                                     </div>
-                                                    <div class="plan-footer"><a href="mbbs-in-<?php echo strtolower($value['name']); ?>.php" class="button button_theme button_js "><span class="button_label">READ MORE</span></a></div>
+                                                    <div class="plan-footer"><a href="mbbs-in-<?php echo strtolower($value['name']); ?>" class="button button_theme button_js "><span class="button_label">READ MORE</span></a></div>
                                                 </div>
                                             </div>
                                     <?php 

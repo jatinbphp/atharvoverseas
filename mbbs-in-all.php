@@ -26,25 +26,27 @@ if (mysqli_num_rows($result) === 1) {
                     <div class="section mcb-section   " style="padding-top:0px; padding-bottom:0px; background-color:">
                         <div class="section_wrapper mcb-section-inner">
 
-                            <?php
-                            if(!empty($data['image'])){
-                                $file_pointer = 'uploads/'.$data['image'];
-                                if (file_exists($file_pointer)) { ?>
+                            
                                  
-                                    <div class="wrap mcb-wrap one-third  valign-top clearfix" style>
-                                        <div class="mcb-wrap-inner">
-                                            <div class="column mcb-column one column_image ">
-                                                <div class="image_frame image_item no_link scale-with-grid no_border">
-                                                    <div class="image_wrapper">
+                            <div class="wrap mcb-wrap one-third  valign-top clearfix" style>
+                                <div class="mcb-wrap-inner">
+                                    <div class="column mcb-column one column_image ">
+                                        <div class="image_frame image_item no_link scale-with-grid no_border">
+                                            <div class="image_wrapper">
+                                                <?php
+                                                if(!empty($data['image'])){
+                                                    $file_pointer = 'uploads/'.$data['image'];
+                                                    if (file_exists($file_pointer)) { ?>
                                                         <img class="scale-with-grid" src="<?php echo $file_pointer; ?>" alt="belarus" width="558" height="347" />
-                                                    </div>
-                                                </div>
+                                                    <?php 
+                                                    } 
+                                                } ?>
                                             </div>
                                         </div>
                                     </div>
-                                <?php 
-                                } 
-                            } ?>
+                                </div>
+                            </div>  
+                                
 
                             <?php 
                             if(!empty($data['content']) || !empty($data['highlights'])){ ?>
@@ -341,7 +343,7 @@ if (mysqli_num_rows($result) === 1) {
                                                         <div class="item_wrapper" style="text-align: center;">
                                                             <div class="image_frame scale-with-grid">
                                                                 <div class="image_wrapper">
-                                                                    <a href="<?php echo $value['slug']; ?>">
+                                                                    <a href="<?php //echo $value['slug']; ?>">
 
                                                                         <?php
                                                                         $profile_image = 'uploads/default.jpg';
@@ -355,6 +357,12 @@ if (mysqli_num_rows($result) === 1) {
 
                                                                     </a>
                                                                 </div>
+                                                            </div>
+                                                            <div class="date_label">October 4, 2021</div>
+                                                            <div class="desc">
+                                                                <h4><a href="<?php //echo $value['slug']; ?>"><?php echo $value['university_name']; ?> | Study MBBS in <?php echo ucwords($data['name']);?></a></h4>
+                                                                <hr class="hr_color" />
+                                                                <a href="<?php //echo $value['slug']; ?>" class="button button_left button_js"><span class="button_icon"><i class="icon-layout"></i></span><span class="button_label">Read more</span></a>
                                                             </div>
                                                         </div>
                                                     </li>

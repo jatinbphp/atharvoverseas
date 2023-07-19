@@ -24,7 +24,7 @@ if(isset($_GET['cId']) && !empty($_GET['cId'])){
     }
 }
 
-$fieldArr = ['overview','admission_procedure','highlight_of_the_medical_collage'];
+$fieldArr = ['overview','admission_procedure','fees','courses','highlight_of_the_medical_collage'];
 ?>
 <body class="hold-transition sidebar-mini layout-navbar-fixed">
 <div class="wrapper content-wrapper content-header">

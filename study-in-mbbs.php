@@ -8,6 +8,10 @@ if(!empty($resultUniversity)){
     $universitydata = mysqli_fetch_assoc($resultUniversity);
 } ?>
 
+<?php 
+if(empty($universitydata)){
+	//redirect
+} ?>
 <div id="Content">
     <div class="content_wrapper clearfix">
         <div class="sections_group">
@@ -238,7 +242,8 @@ if(!empty($resultUniversity)){
 		                                                <div class="image_links double">
 		                                                	<a href="<?php echo $profile_image; ?>" class="zoom" rel="prettyphoto"><i class="icon-search"></i>
 		                                                	</a>
-		                                                	<a href="<?php echo $value['slug']; ?>" class="link"><i class="icon-link"></i></a></div>
+		                                                	<a href="<?php echo $value['slug']; ?>" class="link"><i class="icon-link"></i></a>
+		                                                </div>
 		                                            </div>
 		                                        </div>
 		                                    </div>
@@ -256,3 +261,4 @@ if(!empty($resultUniversity)){
         </div>
     </div>
 </div>
+<?php include 'includes/footer.php' ?>

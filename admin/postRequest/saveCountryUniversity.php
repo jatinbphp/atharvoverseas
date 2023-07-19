@@ -38,8 +38,12 @@ if ($_POST) {
     $admission_content = mysqli_real_escape_string($conn,$_POST['admission_procedure_content']);
     $highlight_title = $_POST['highlight_of_the_medical_collage_title'];
     $highlight_content = mysqli_real_escape_string($conn,$_POST['highlight_of_the_medical_collage_content']);
+    $fees_title = $_POST['fees_title'];
+    $fees_content = mysqli_real_escape_string($conn,$_POST['fees_content']);
+    $courses_title = $_POST['courses_title'];
+    $courses_content = mysqli_real_escape_string($conn,$_POST['courses_content']);
     $gallery_title = $_POST['gallery_title'];
-    $slug = str_replace(' ','-',strtolower($university_name)).'-study-mbbs-in-'.strtolower($row2['name']);
+    $slug = trim(str_replace(' ','-',strtolower($university_name)).'-study-mbbs-in-'.strtolower($row2['name']));
 
     $sql = "SELECT * FROM country_university WHERE id=".$universityId;
     $result = mysqli_query($conn, $sql);
@@ -95,8 +99,13 @@ if ($_POST) {
     }
 
     if($isNew == 1){
-        $sql = "INSERT INTO country_university (country,slug,university_name,profile_image,overview_title,overview_content,admission_procedure_title,admission_procedure_content,highlight_of_the_medical_collage_title,highlight_of_the_medical_collage_content,gallery_title,photo_gallery) 
-                VALUES ('$country','$slug','$university_name','$profile_image_name','$overview_title','$overview_content','$admission_title','$admission_content','$highlight_title','$highlight_content','$gallery_title','$img_name')";
+        $sql = "INSERT INTO country_university (country,slug,university_name,profile_image,overview_title,overview_content,
+                                admission_procedure_title,admission_procedure_content,highlight_of_the_medical_collage_title,
+                                fees_title,fees_content,courses_title,courses_content,highlight_of_the_medical_collage_content,
+                                gallery_title,photo_gallery) 
+                VALUES ('$country','$slug','$university_name','$profile_image_name','$overview_title','$overview_content',
+                        '$admission_title','$admission_content','$highlight_title','$fees_title','$fees_content','$courses_title',
+                        '$courses_content','$highlight_content','$gallery_title','$img_name')";
         $result = mysqli_query($conn, $sql);
         if ($result == 1) {
             $_SESSION['error'] = 'Country university is inserted successfully';
@@ -113,7 +122,11 @@ if ($_POST) {
             admission_procedure_title = '$admission_title',
             admission_procedure_content = '$admission_content',
             highlight_of_the_medical_collage_title = '$highlight_title',
-            highlight_of_the_medical_collage_content = '$highlight_content',
+            highlight_of_the_medical_collage_content = '$highlight_content',            
+            fees_title = '$fees_title',
+            fees_content = '$fees_content',
+            courses_title = '$courses_title',
+            courses_content = '$courses_content',
             gallery_title = '$gallery_title',
             photo_gallery = '$img_name'
             WHERE id =".$universityId;

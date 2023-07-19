@@ -3,17 +3,21 @@ include "dbConnection.php";
 if ($_POST) {
     $country = $_POST['cId'];
     $image = $_POST['image'];
-    $content = htmlspecialchars_decode(mysqli_real_escape_string($conn,$_POST['content'])) ;
+    $content = htmlspecialchars_decode(mysqli_real_escape_string($conn,trim($_POST['content']))) ;
+    $content2 = htmlspecialchars_decode(mysqli_real_escape_string($conn,trim($_POST['content2']))) ;
     $about_title = $_POST['about_title'];
-    $about_content = htmlspecialchars_decode(mysqli_real_escape_string($conn,$_POST['about_content']));
+    $about_content = htmlspecialchars_decode(mysqli_real_escape_string($conn,trim($_POST['about_content'])));
     $study_title = $_POST['study_title'];
-    $study_content = htmlspecialchars_decode(mysqli_real_escape_string($conn,$_POST['study_content']));
+    $study_content = htmlspecialchars_decode(mysqli_real_escape_string($conn,trim($_POST['study_content'])));
     $benefit_mbbs_title = $_POST['benefit_mbbs_title'];
-    $benefit_mbbs_content = htmlspecialchars_decode(mysqli_real_escape_string($conn,$_POST['benefit_mbbs_content']));
+    $benefit_mbbs_content = htmlspecialchars_decode(mysqli_real_escape_string($conn,trim($_POST['benefit_mbbs_content'])));
     $admission_title = $_POST['admission_title'];
-    $admission_content = htmlspecialchars_decode(mysqli_real_escape_string($conn,$_POST['admission_content']));
+    $admission_content = htmlspecialchars_decode(mysqli_real_escape_string($conn,trim($_POST['admission_content'])));
     $fee_title = $_POST['fee_title'];
-    $fee_content = htmlspecialchars_decode(mysqli_real_escape_string($conn,$_POST['fee_content']));
+    $fee_content = htmlspecialchars_decode(mysqli_real_escape_string($conn,trim($_POST['fee_content'])));
+    $processing_title = $_POST['processing_title'];
+    $processing_sub_title = $_POST['processing_sub_title'];
+    $processing_content = htmlspecialchars_decode(mysqli_real_escape_string($conn,trim($_POST['processing_content'])));
 
     $highLights = [];
     $highLights['country_name'] = $_POST['country_name'];
@@ -31,7 +35,7 @@ if ($_POST) {
     $highLights['hostel_fees_range'] = $_POST['hostel_fees_range'];
     $highLights['tution_fees_range'] = $_POST['tution_fees_range'];
 
-    $highLightJSON = json_encode($highLights);
+    $highLightJSON = htmlspecialchars_decode(mysqli_real_escape_string($conn,trim(json_encode($highLights))));
 
     $img_name = '';
     $sql = "SELECT * FROM country_section WHERE country=".$_POST['cId'];
@@ -65,10 +69,10 @@ if ($_POST) {
     }
 
     if($isNew == 1){
-        $sql = "INSERT INTO country_section (country,image,content,about_title,about_content,study_title,study_content,benefit_mbbs_title,
-                             benefit_mbbs_content,admission_title,admission_content,fee_title,fee_content,highlights) 
-                VALUES ('$country','$img_name','$content','$about_title','$about_content','$study_title','$study_content','$benefit_mbbs_title',
-                        '$benefit_mbbs_content','$admission_title','$admission_content','$fee_title','$fee_content','$highLightJSON')";
+        $sql = "INSERT INTO country_section (country,image,content,content2,about_title,about_content,study_title,study_content,benefit_mbbs_title,
+                             benefit_mbbs_content,admission_title,admission_content,fee_title,fee_content,highlights,processing_title,processing_sub_title,processing_content) 
+                VALUES ('$country','$img_name','$content','$content2','$about_title','$about_content','$study_title','$study_content','$benefit_mbbs_title',
+                        '$benefit_mbbs_content','$admission_title','$admission_content','$fee_title','$fee_content','$highLightJSON','$processing_title','$processing_sub_title','$processing_content')";
         $result = mysqli_query($conn, $sql);
         if ($result == 1) {
             $_SESSION['error'] = 'Country section is inserted successfully';
@@ -78,6 +82,7 @@ if ($_POST) {
     }else{
         $sql = "UPDATE country_section SET image = '$img_name',
             content = '$content',
+            content2 = '$content2',
             about_title = '$about_title',
             about_content = '$about_content',
             study_title = '$study_title',
@@ -88,10 +93,11 @@ if ($_POST) {
             admission_content = '$admission_content',
             fee_title = '$fee_title',
             fee_content = '$fee_content',
-            highlights = '$highLightJSON'
-                       
+            highlights = '$highLightJSON',
+            processing_title = '$processing_title',
+            processing_sub_title = '$processing_sub_title',
+            processing_content = '$processing_content'
             WHERE country =".$_POST['cId'];
-
         if ($conn->query($sql) === TRUE) {
             $_SESSION['error'] = 'Country section is updated successfully';
         } else {

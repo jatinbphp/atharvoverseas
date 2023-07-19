@@ -6,12 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="e2079cf1-a784-4707-a5e2-31886e10cb0a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/include/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/include/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/include/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/include/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/mbbsDetails.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/mbbsDetails.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/office.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/office.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/officeForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/officeForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/examples/language-menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/examples/project-detail.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/postRequest/saveCountrySection.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/postRequest/saveCountrySection.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/postRequest/saveCountryUniversity.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/postRequest/saveCountryUniversity.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/postRequest/saveSection.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/postRequest/saveSection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/mfn-dnmc-page-css.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/mfn-dnmc-page-css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/universityDetails.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/universityDetails.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mbbs-in-all.php" beforeDir="false" afterPath="$PROJECT_DIR$/mbbs-in-all.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-in-mbbs.php" beforeDir="false" afterPath="$PROJECT_DIR$/study-in-mbbs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-mbbs-abroad.php" beforeDir="false" afterPath="$PROJECT_DIR$/study-mbbs-abroad.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1689651408245</updated>
       <workItem from="1689651412256" duration="16543000" />
+      <workItem from="1689738970360" duration="14580000" />
     </task>
     <servers />
   </component>
